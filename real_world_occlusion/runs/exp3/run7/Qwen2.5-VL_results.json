@@ -1,0 +1,1344 @@
+{
+    "overall": {
+        "no_occlusion": {
+            "total_tp": 79,
+            "total_num_objects": 81,
+            "pct_correct": 97.5309
+        },
+        "low_occlusion": {
+            "total_tp": 45,
+            "total_num_objects": 51,
+            "pct_correct": 88.2353
+        },
+        "medium_occlusion": {
+            "total_tp": 21,
+            "total_num_objects": 44,
+            "pct_correct": 47.7273
+        },
+        "high_occlusion": {
+            "total_tp": 10,
+            "total_num_objects": 44,
+            "pct_correct": 22.7273
+        }
+    },
+    "individual": {
+        "1": {
+            "generation": [
+                "The objects on the table are:\n\n1. A jar of Jif creamy peanut butter.\n2. A stainless steel water bottle with a black lid.\n3. A box of Cheerios cereal.\n4. A pair of scissors.\n5. A fork.\n6. A small packet (possibly a snack or a condiment).\n7. A can (partially visible in the background)."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "stainless steel water bottle with a black lid",
+                "box of cheerios cereal",
+                "pair of scissors",
+                "fork",
+                "small packet (possibly a snack or a condiment)",
+                "can (partially visible in the background)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "fork",
+                    "scissors",
+                    "cereal box"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "scissors",
+                    "fork",
+                    "bottle",
+                    "peanut butter jar",
+                    "cereal box"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "toothpaste"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "clock",
+                    "spatula"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "2": {
+            "generation": [
+                "The objects on the table are:\n\n1. A box of Cheerios cereal.\n2. A white bowl.\n3. A fork.\n4. A jar of Jif creamy peanut butter.\n5. A can of Great Value green beans (partially visible).\n6. A can of Great Value soup (partially visible)."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "white bowl",
+                "fork",
+                "jar of jif creamy peanut butter",
+                "can of great value green beans (partially visible)",
+                "can of great value soup (partially visible)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "bowl",
+                    "peanut butter jar"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "peanut butter jar",
+                    "bowl",
+                    "cereal box"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "fork"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "fork"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "scissors",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bottle",
+                    "clock",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "3": {
+            "generation": [
+                "The objects on the table include:\n\n1. A stainless steel thermos with \"MILTON\" written on it.\n2. A box of tissues.\n3. A digital kitchen scale.\n4. A black spatula.\n5. A white bowl.\n6. A fork.\n7. A can of food (partially visible).\n8. A tube of toothpaste.\n9. A mug or cup.\n\nThese items appear to be arranged casually, possibly for a meal or snack preparation."
+            ],
+            "generation_objects": [
+                "stainless steel thermos with \"milton\" written on it",
+                "box of tissues",
+                "digital kitchen scale",
+                "black spatula",
+                "white bowl",
+                "fork",
+                "can of food (partially visible)",
+                "tube of toothpaste",
+                "mug or cup",
+                "these items appear to be arranged casually",
+                "possibly for a meal or snack preparation"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "spatula",
+                    "fork",
+                    "bowl",
+                    "can"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "bottle",
+                    "fork",
+                    "spatula",
+                    "bowl",
+                    "can"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "toothpaste"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "tissue box",
+                    "toothpaste"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk",
+                    "mug"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "scissors"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "4": {
+            "generation": [
+                "The objects on the table include:\n\n1. A silver thermos with a black lid.\n2. A box of tissues with a striped pattern.\n3. A jar of Jif creamy peanut butter.\n4. A small digital clock.\n5. A beige mug.\n6. A white bowl.\n7. A spoon.\n8. A can (partially visible behind the peanut butter jar)."
+            ],
+            "generation_objects": [
+                "silver thermos with a black lid",
+                "box of tissues with a striped pattern",
+                "jar of jif creamy peanut butter",
+                "small digital clock",
+                "beige mug",
+                "white bowl",
+                "spoon",
+                "can (partially visible behind the peanut butter jar)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "peanut butter jar",
+                    "tissue box",
+                    "mug"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "tissue box",
+                    "bottle",
+                    "peanut butter jar",
+                    "mug"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "clock",
+                    "spatula",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "bowl",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spoon",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon"
+                ],
+                "tp": 1
+            }
+        },
+        "5": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of tissues.\n2. A small alarm clock.\n3. A stainless steel thermos.\n4. A whisk.\n5. A jar of Jif creamy peanut butter.\n6. A white bowl.\n7. A black spatula.\n8. A can (partially visible in the background)."
+            ],
+            "generation_objects": [
+                "box of tissues",
+                "small alarm clock",
+                "stainless steel thermos",
+                "whisk",
+                "jar of jif creamy peanut butter",
+                "white bowl",
+                "black spatula",
+                "can (partially visible in the background)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "bottle",
+                    "clock",
+                    "peanut butter jar"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "tissue box",
+                    "bottle",
+                    "clock",
+                    "peanut butter jar"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spatula",
+                    "whisk",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bowl",
+                    "spatula",
+                    "whisk"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "mug",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            },
+            "high_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            }
+        },
+        "6": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of Cheerios cereal.\n2. A tissue box with tissues.\n3. A can of Great Value (likely a brand of food or beverage).\n4. A white mug.\n5. A whisk.\n6. A silver thermos labeled \"MILTON.\"\n7. A spoon.\n8. A black tray or plate partially visible under the items.\n\nThese items appear to be arranged for breakfast or a similar meal."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "tissue box with tissues",
+                "can of great value (likely a brand of food or beverage)",
+                "white mug",
+                "whisk",
+                "silver thermos labeled \"milton.\"",
+                "spoon",
+                "black tray or plate partially visible under the items",
+                "these items appear to be arranged for breakfast or a similar meal"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "spatula",
+                    "cereal box",
+                    "bottle"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bottle",
+                    "cereal box",
+                    "mug"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "tissue box",
+                    "spoon"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "fork",
+                    "bowl"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "7": {
+            "generation": [
+                "The objects on the table include:\n\n1. A jar of Jif creamy peanut butter.\n2. A box of Cheerios cereal (family size).\n3. A can of Great Value green beans.\n4. A white bowl.\n5. A small alarm clock.\n6. A fork.\n7. A spoon.\n8. A knife.\n9. A pencil.\n10. A packet of toothpaste."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "box of cheerios cereal (family size)",
+                "can of great value green beans",
+                "white bowl",
+                "small alarm clock",
+                "fork",
+                "spoon",
+                "knife",
+                "pencil",
+                "packet of toothpaste"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "fork",
+                    "clock",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "fork",
+                    "clock",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "pencil",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "scissors",
+                    "spoon",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bowl",
+                    "spoon"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "8": {
+            "generation": [
+                "The objects on the table include:\n\n1. A stainless steel thermos.\n2. A box of tissues.\n3. A jar of Jif creamy peanut butter.\n4. A small white bowl.\n5. A beige mug.\n6. A digital scale.\n7. A fork.\n8. A pair of scissors.\n9. A tube of toothpaste."
+            ],
+            "generation_objects": [
+                "stainless steel thermos",
+                "box of tissues",
+                "jar of jif creamy peanut butter",
+                "small white bowl",
+                "beige mug",
+                "digital scale",
+                "fork",
+                "pair of scissors",
+                "tube of toothpaste"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "bowl",
+                    "mug",
+                    "fork"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "fork",
+                    "bottle",
+                    "bowl",
+                    "mug"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "scissors",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "peanut butter jar",
+                    "toothpaste"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "tissue box"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "whisk",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "9": {
+            "generation": [
+                "The objects on the table are:\n\n1. A white bowl.\n2. A digital clock.\n3. A brown mug.\n4. A silver thermos.\n5. A jar of peanut butter with a red lid.\n6. A fork.\n7. A knife.\n8. A pencil.\n9. A whisk (partially visible in the background)."
+            ],
+            "generation_objects": [
+                "white bowl",
+                "digital clock",
+                "brown mug",
+                "silver thermos",
+                "jar of peanut butter with a red lid",
+                "fork",
+                "knife",
+                "pencil",
+                "whisk (partially visible in the background)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bowl",
+                    "mug",
+                    "bottle",
+                    "peanut butter jar",
+                    "spatula"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "bottle",
+                    "bowl",
+                    "mug",
+                    "peanut butter jar"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "pencil"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "scissors",
+                    "spoon",
+                    "fork",
+                    "tissue box"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "fork"
+                ],
+                "tp": 1
+            }
+        },
+        "10": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of Cheerios cereal.\n2. A jar of peanut butter.\n3. A box of tissues.\n4. A can of Great Value Green Beans.\n5. An empty white bowl.\n6. A beige mug.\n7. A spoon.\n8. A tube of Colgate toothpaste.\n9. A whisk.\n10. A pencil."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "jar of peanut butter",
+                "box of tissues",
+                "can of great value green beans",
+                "empty white bowl",
+                "beige mug",
+                "spoon",
+                "tube of colgate toothpaste",
+                "whisk",
+                "pencil"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bowl",
+                    "mug",
+                    "toothpaste",
+                    "whisk"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "whisk",
+                    "bowl",
+                    "mug",
+                    "toothpaste"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spoon",
+                    "can",
+                    "pencil",
+                    "tissue box",
+                    "cereal box"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "pencil",
+                    "spoon",
+                    "can",
+                    "tissue box",
+                    "cereal box"
+                ],
+                "tp": 5
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "peanut butter jar"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "11": {
+            "generation": [
+                "The objects on the table include:\n\n1. A jar of peanut butter.\n2. A can of green beans.\n3. A mug.\n4. A white bowl.\n5. A spoon.\n6. A fork.\n7. A thermos.\n8. A pencil.\n9. A small packet (possibly a toothpaste or similar item).\n10. A pen cap."
+            ],
+            "generation_objects": [
+                "jar of peanut butter",
+                "can of green beans",
+                "mug",
+                "white bowl",
+                "spoon",
+                "fork",
+                "thermos",
+                "pencil",
+                "small packet (possibly a toothpaste or similar item)",
+                "pen cap"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "bowl",
+                    "bottle",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "bottle",
+                    "peanut butter jar",
+                    "mug",
+                    "bowl",
+                    "can"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "fork",
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "fork",
+                    "pencil",
+                    "spoon"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "toothpaste"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "12": {
+            "generation": [
+                "The objects on the table are:\n\n1. A box of Cheerios cereal with daily affirmations.\n2. A stainless steel water bottle.\n3. A tissue box with striped packaging."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal with daily affirmations",
+                "stainless steel water bottle",
+                "tissue box with striped packaging"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "tissue box"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "tissue box",
+                    "cereal box"
+                ],
+                "tp": 2
+            },
+            "low_occlusion": {
+                "objects": [
+                    "bottle"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "bottle"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "bowl",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            },
+            "high_occlusion": {
+                "objects": [
+                    "mug",
+                    "spatula"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "13": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of Cheerios cereal.\n2. A white bowl.\n3. A beige mug.\n4. A fork.\n5. A tissue box with tissues.\n6. A small alarm clock.\n7. A pen or pencil.\n8. A packet of Cadbury chocolate.\n9. A pencil."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "white bowl",
+                "beige mug",
+                "fork",
+                "tissue box with tissues",
+                "small alarm clock",
+                "pen or pencil",
+                "packet of cadbury chocolate",
+                "pencil"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "cereal box",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "cereal box",
+                    "pencil",
+                    "mug"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "bowl",
+                    "toothpaste",
+                    "clock"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "tissue box",
+                    "clock",
+                    "bowl"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "fork",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "fork"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bottle",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "14": {
+            "generation": [
+                "The objects on the table include:\n\n1. A stainless steel thermos with a black lid.\n2. A jar of Jif creamy peanut butter.\n3. A box of tissues with a striped pattern.\n4. A white ceramic bowl.\n5. A beige ceramic mug.\n6. A pencil.\n7. A small clock or timer.\n8. A can (partially visible, possibly a beverage can).\n9. A spoon or knife partially visible behind the bowl.\n\nThese items appear to be arranged for a simple meal or snack setup."
+            ],
+            "generation_objects": [
+                "stainless steel thermos with a black lid",
+                "jar of jif creamy peanut butter",
+                "box of tissues with a striped pattern",
+                "white ceramic bowl",
+                "beige ceramic mug",
+                "pencil",
+                "small clock or timer",
+                "can (partially visible",
+                "possibly a beverage can)",
+                "spoon or knife partially visible behind the bowl",
+                "these items appear to be arranged for a simple meal or snack setup"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "bottle",
+                    "tissue box",
+                    "bowl"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "tissue box",
+                    "bottle",
+                    "bowl",
+                    "mug"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil",
+                    "peanut butter jar",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "peanut butter jar",
+                    "pencil"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "can",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            }
+        },
+        "15": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of Cheerios cereal.\n2. A jar of Jif peanut butter.\n3. A can of cut green beans.\n4. A white bowl.\n5. A whisk.\n6. A digital clock.\n7. A spatula.\n8. A mug or cup.\n\nThese items suggest that they might be ingredients or tools for preparing a meal or snack."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "jar of jif peanut butter",
+                "can of cut green beans",
+                "white bowl",
+                "whisk",
+                "digital clock",
+                "spatula",
+                "mug or cup",
+                "these items suggest that they might be ingredients or tools for preparing a meal or snack"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bowl",
+                    "can",
+                    "clock"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "clock",
+                    "bowl",
+                    "peanut butter jar",
+                    "can"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spatula",
+                    "cereal box"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spatula",
+                    "cereal box"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "whisk",
+                    "mug",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "16": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of Cheerios cereal.\n2. A jar of Jif peanut butter.\n3. A brown mug.\n4. A white bowl.\n5. A fork.\n6. A spoon.\n7. A small clock.\n8. A whisk.\n9. A pencil.\n10. A canister (partially visible, possibly for sugar or another ingredient)."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "jar of jif peanut butter",
+                "brown mug",
+                "white bowl",
+                "fork",
+                "spoon",
+                "small clock",
+                "whisk",
+                "pencil",
+                "canister (partially visible",
+                "possibly for sugar or another ingredient)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "bowl",
+                    "clock",
+                    "mug",
+                    "peanut butter jar",
+                    "fork"
+                ],
+                "num_objects": 6,
+                "true_positives": [
+                    "fork",
+                    "clock",
+                    "peanut butter jar",
+                    "mug",
+                    "bowl",
+                    "cereal box"
+                ],
+                "tp": 6
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil",
+                    "spoon",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "pencil",
+                    "spoon"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk"
+                ],
+                "tp": 1
+            }
+        },
+        "17": {
+            "generation": [
+                "The objects on the table are:\n\n1. A jar of Jif creamy peanut butter.\n2. A can of Great Value green beans.\n3. A stainless steel thermos with a black lid.\n4. A metal whisk.\n5. A slotted spatula.\n6. A small alarm clock.\n7. A brown mug.\n8. A box of tissues or napkins.\n\nThese items appear to be kitchen and dining-related supplies."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "can of great value green beans",
+                "stainless steel thermos with a black lid",
+                "metal whisk",
+                "slotted spatula",
+                "small alarm clock",
+                "brown mug",
+                "box of tissues or napkins",
+                "these items appear to be kitchen and dining-related supplies"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "clock",
+                    "can",
+                    "spatula",
+                    "bottle"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "bottle",
+                    "clock",
+                    "peanut butter jar",
+                    "spatula",
+                    "can"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "whisk",
+                    "mug"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            },
+            "high_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "toothpaste",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "tissue box"
+                ],
+                "tp": 1
+            }
+        },
+        "18": {
+            "generation": [
+                "The objects on the table include:\n\n1. A box of Cheerios cereal.\n2. A stainless steel thermos.\n3. A jar of Jif creamy peanut butter.\n4. A mug.\n5. A whisk.\n6. A pencil.\n7. A tissue box with tissues inside.\n8. A pair of scissors.\n9. A bowl (partially visible).\n10. A small packet of Colgate toothpaste."
+            ],
+            "generation_objects": [
+                "box of cheerios cereal",
+                "stainless steel thermos",
+                "jar of jif creamy peanut butter",
+                "mug",
+                "whisk",
+                "pencil",
+                "tissue box with tissues inside",
+                "pair of scissors",
+                "bowl (partially visible)",
+                "small packet of colgate toothpaste"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "pencil",
+                    "tissue box"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "tissue box",
+                    "pencil",
+                    "mug"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "scissors",
+                    "bottle",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "scissors",
+                    "bottle",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "tp": 4
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "peanut butter jar"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bowl",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "bowl",
+                    "whisk"
+                ],
+                "tp": 2
+            }
+        },
+        "19": {
+            "generation": [
+                "The objects on the table include:\n\n1. A jar of Jif creamy peanut butter.\n2. A box of Cheerios cereal.\n3. A stainless steel thermos.\n4. A mug.\n5. A fork.\n6. A can (partially visible).\n7. A tissue box with tissues.\n8. A whisk.\n9. A small clock or timer.\n\nThese items suggest that this might be a breakfast setup, possibly for someone who enjoys a quick meal or snack."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "box of cheerios cereal",
+                "stainless steel thermos",
+                "mug",
+                "fork",
+                "can (partially visible)",
+                "tissue box with tissues",
+                "whisk",
+                "small clock or timer",
+                "these items suggest that this might be a breakfast setup",
+                "possibly for someone who enjoys a quick meal or snack"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "tissue box"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "tissue box",
+                    "bottle",
+                    "peanut butter jar"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "mug",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock",
+                    "mug"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "pencil",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "fork",
+                    "cereal box"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "whisk",
+                    "scissors",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "can",
+                    "whisk"
+                ],
+                "tp": 2
+            }
+        },
+        "20": {
+            "generation": [
+                "The objects on the table include:\n\n1. A can of Great Value Green Beans.\n2. A white bowl.\n3. A black spatula.\n4. A jar of Jif creamy peanut butter.\n5. A box of tissues with a striped pattern.\n6. A fork.\n7. A small box of matches or a similar item.\n8. A pair of scissors.\n9. A small packet, possibly a snack or a condiment.\n\nThese items appear to be arranged casually on a dark-colored surface."
+            ],
+            "generation_objects": [
+                "can of great value green beans",
+                "white bowl",
+                "black spatula",
+                "jar of jif creamy peanut butter",
+                "box of tissues with a striped pattern",
+                "fork",
+                "small box of matches or a similar item",
+                "pair of scissors",
+                "small packet",
+                "possibly a snack or a condiment",
+                "these items appear to be arranged casually on a dark-colored surface"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "peanut butter jar",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "tissue box",
+                    "can",
+                    "peanut butter jar",
+                    "spatula"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "bowl",
+                    "fork",
+                    "scissors"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "fork",
+                    "bowl"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "spoon",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            },
+            "high_occlusion": {
+                "objects": [
+                    "pencil",
+                    "mug",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [],
+                "tp": 0
+            }
+        }
+    }
+}

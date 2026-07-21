@@ -1,0 +1,1528 @@
+{
+    "overall": {
+        "no_occlusion": {
+            "total_tp": 81,
+            "total_num_objects": 81,
+            "pct_correct": 100.0
+        },
+        "low_occlusion": {
+            "total_tp": 45,
+            "total_num_objects": 51,
+            "pct_correct": 88.2353
+        },
+        "medium_occlusion": {
+            "total_tp": 35,
+            "total_num_objects": 44,
+            "pct_correct": 79.5455
+        },
+        "high_occlusion": {
+            "total_tp": 21,
+            "total_num_objects": 44,
+            "pct_correct": 47.7273
+        }
+    },
+    "individual": {
+        "1": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark-colored table:\n\n- A jar of Jif Creamy Peanut Butter (with a red lid and colorful label)\n- A tall, silver stainless steel thermos with a black lid\n- A can of green beans (partially visible behind the thermos)\n- A small, silver fork\n- A pair of black-handled scissors\n- A box of Cheerios cereal (specifically the \"You are loved\" Limited Edition with heart-shaped cereal)\n- A small, silver spoon (partially visible next to the peanut butter jar)\n- A small, rectangular package (possibly a snack or candy bar) with red and blue colors, lying near the thermos\n- A small, white digital clock or timer (partially visible behind the peanut butter jar)\n\nThese items are arranged on a dark surface against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a jar of jif creamy peanut butter (with a red lid and colorful label)",
+                "a tall",
+                "silver stainless steel thermos with a black lid",
+                "a can of green beans (partially visible behind the thermos)",
+                "a small",
+                "silver fork",
+                "a pair of black-handled scissors",
+                "a box of cheerios cereal (specifically the \"you are loved\" limited edition with heart-shaped cereal)",
+                "a small",
+                "silver spoon (partially visible next to the peanut butter jar)",
+                "a small",
+                "rectangular package (possibly a snack or candy bar) with red and blue colors",
+                "lying near the thermos",
+                "a small",
+                "white digital clock or timer (partially visible behind the peanut butter jar)",
+                "these items are arranged on a dark surface against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "fork",
+                    "scissors",
+                    "cereal box"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "peanut butter jar",
+                    "cereal box",
+                    "scissors",
+                    "fork",
+                    "bottle"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "toothpaste"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon",
+                    "can"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "clock",
+                    "spatula"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            }
+        },
+        "2": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark-colored table:\n\n- A yellow box of Cheerios cereal\n- A large jar of Jif Creamy Peanut Butter with a red lid\n- A white ceramic bowl\n- A metal fork\n- A pair of black-handled scissors\n- A small blue packet (possibly a sugar substitute or flavoring)\n- A can of Great Value Green Beans (partially visible behind the peanut butter jar)\n- A silver water bottle (partially visible behind the Cheerios box)\n\nThese items suggest the setup is for making a peanut butter and cereal snack or breakfast."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a yellow box of cheerios cereal",
+                "a large jar of jif creamy peanut butter with a red lid",
+                "a white ceramic bowl",
+                "a metal fork",
+                "a pair of black-handled scissors",
+                "a small blue packet (possibly a sugar substitute or flavoring)",
+                "a can of great value green beans (partially visible behind the peanut butter jar)",
+                "a silver water bottle (partially visible behind the cheerios box)",
+                "these items suggest the setup is for making a peanut butter and cereal snack or breakfast"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "bowl",
+                    "peanut butter jar"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bowl",
+                    "cereal box",
+                    "peanut butter jar"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "fork"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "fork"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "scissors",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "scissors",
+                    "can"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bottle",
+                    "clock",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bottle"
+                ],
+                "tp": 1
+            }
+        },
+        "3": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark blue table:\n\n- A silver stainless steel thermos with a black lid, branded \"MILTON\" on the side.\n- A tissue box with a striped (white and grey) pattern, partially open.\n- A black plastic spatula with a slotted head.\n- A metal fork with a black handle.\n- A small white bowl.\n- A tube of toothpaste (Crest brand, red and blue packaging) lying on its side.\n- A can of food (likely tuna or soup) with a blue and white label showing \"Nutrition Facts\" and \"Calories 15\".\n- A beige or tan ceramic mug, partially obscured by the can.\n- A small white electrical outlet or plug adapter on the wall behind the table.\n- A small black object, possibly a bottle cap or a small tool, near the can.\n\nThese items appear to be a mix of kitchen utensils, personal care items, and food packaging, suggesting a casual or cluttered tabletop scene."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a silver stainless steel thermos with a black lid",
+                "branded \"milton\" on the side",
+                "a tissue box with a striped (white and grey) pattern",
+                "partially open",
+                "a black plastic spatula with a slotted head",
+                "a metal fork with a black handle",
+                "a small white bowl",
+                "a tube of toothpaste (crest brand",
+                "red and blue packaging) lying on its side",
+                "a can of food (likely tuna or soup) with a blue and white label showing \"nutrition facts\" and \"calories 15\"",
+                "a beige or tan ceramic mug",
+                "partially obscured by the can",
+                "a small black object",
+                "possibly a bottle cap or a small tool",
+                "near the can",
+                "these items appear to be a mix of kitchen utensils",
+                "personal care items",
+                "and food packaging",
+                "suggesting a casual or cluttered tabletop scene"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "spatula",
+                    "fork",
+                    "bowl",
+                    "can"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "spatula",
+                    "can",
+                    "bowl",
+                    "fork",
+                    "bottle"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "toothpaste"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "tissue box",
+                    "toothpaste"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk",
+                    "mug"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "scissors"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "4": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark-colored table:\n\n- A silver thermos with a black lid (partially visible)\n- A Jif Creamy Peanut Butter jar with a red lid\n- A small, white analog clock (showing approximately 10:10)\n- A beige ceramic mug\n- A white ceramic bowl\n- A box of tissues with blue, gray, and white vertical stripes\n- A black plastic spatula (partially visible behind the tissue box)\n- A pen (gold-colored) lying on the table\n- A metal utensil (possibly a spoon or part of a utensil set) near the tissue box\n- A can (likely a food can, partially obscured behind the peanut butter jar)\n\nThese items are arranged on a dark surface against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a silver thermos with a black lid (partially visible)",
+                "a jif creamy peanut butter jar with a red lid",
+                "a small",
+                "white analog clock (showing approximately 10:10)",
+                "a beige ceramic mug",
+                "a white ceramic bowl",
+                "a box of tissues with blue",
+                "gray",
+                "and white vertical stripes",
+                "a black plastic spatula (partially visible behind the tissue box)",
+                "a metal utensil (possibly a spoon or part of a utensil set) near the tissue box",
+                "a can (likely a food can",
+                "partially obscured behind the peanut butter jar)",
+                "these items are arranged on a dark surface against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "peanut butter jar",
+                    "tissue box",
+                    "mug"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "mug",
+                    "tissue box",
+                    "peanut butter jar",
+                    "bottle"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "clock",
+                    "spatula",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "spatula",
+                    "clock"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "bowl",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spoon",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon"
+                ],
+                "tp": 1
+            }
+        },
+        "5": {
+            "generation": [
+                "Based on the image provided, here is a list of the objects on the table:\n\n- A striped tissue box with a white tissue protruding from the top.\n- A small, square, white analog clock with black hands and numbers.\n- A black spatula with a slotted head.\n- A metal whisk with a silver handle and wire loops.\n- A tall, silver stainless steel thermos with a black lid.\n- A jar of Jif Creamy Peanut Butter with a red lid and colorful label.\n- A small, white ceramic bowl.\n- A partially visible can with a blue label (possibly a food can).\n- A brown ceramic mug, partially obscured behind the thermos.\n- A red and white can (possibly a soda can) with the word \"Cola\" visible, lying behind the spatula.\n\nThese items are arranged on a dark-colored tabletop against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a striped tissue box with a white tissue protruding from the top",
+                "a small",
+                "square",
+                "white analog clock with black hands and numbers",
+                "a black spatula with a slotted head",
+                "a metal whisk with a silver handle and wire loops",
+                "a tall",
+                "silver stainless steel thermos with a black lid",
+                "a jar of jif creamy peanut butter with a red lid and colorful label",
+                "a small",
+                "white ceramic bowl",
+                "a partially visible can with a blue label (possibly a food can)",
+                "a brown ceramic mug",
+                "partially obscured behind the thermos",
+                "a red and white can (possibly a soda can) with the word \"cola\" visible",
+                "lying behind the spatula",
+                "these items are arranged on a dark-colored tabletop against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "bottle",
+                    "clock",
+                    "peanut butter jar"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "peanut butter jar",
+                    "tissue box",
+                    "clock",
+                    "bottle"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spatula",
+                    "whisk",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bowl",
+                    "spatula",
+                    "whisk"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "mug",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            }
+        },
+        "6": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the table:\n\n- A yellow box of Cheerios cereal, specifically the \"Limited Edition Heart Shapes\" variety, with the slogan \"You are loved\".\n- A silver-colored, stainless steel thermos with a black lid and the brand name \"MILTON\" printed on it.\n- A beige ceramic mug.\n- A black spatula with a metal whisk attachment.\n- A box of tissues with blue and white stripes.\n- A small can with a blue and white label (likely a food can, possibly tuna or soup).\n- A white plastic spoon.\n- A white, round, shallow dish or lid (possibly for the thermos or a bowl).\n- A small, white, round object partially visible behind the thermos (possibly a coaster or lid).\n\nThese items are arranged on a dark-colored table against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a yellow box of cheerios cereal",
+                "specifically the \"limited edition heart shapes\" variety",
+                "with the slogan \"you are loved\"",
+                "a silver-colored",
+                "stainless steel thermos with a black lid and the brand name \"milton\" printed on it",
+                "a beige ceramic mug",
+                "a black spatula with a metal whisk attachment",
+                "a box of tissues with blue and white stripes",
+                "a small can with a blue and white label (likely a food can",
+                "possibly tuna or soup)",
+                "a white plastic spoon",
+                "a white",
+                "round",
+                "shallow dish or lid (possibly for the thermos or a bowl)",
+                "a small",
+                "white",
+                "round object partially visible behind the thermos (possibly a coaster or lid)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "spatula",
+                    "cereal box",
+                    "bottle"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "mug",
+                    "spatula",
+                    "cereal box",
+                    "bottle"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon",
+                    "tissue box"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "fork",
+                    "bowl"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "bowl"
+                ],
+                "tp": 1
+            }
+        },
+        "7": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark-colored table:\n\n- A jar of Jif Creamy Peanut Butter with a red lid.\n- A large yellow box of Cheerios cereal, labeled \"Family Size\" and \"You are loved\".\n- A small, white, square analog clock.\n- A white ceramic bowl.\n- A can of Great Value Green Beans.\n- A metal fork.\n- A metal spatula (or turner) with a black handle.\n- A pair of scissors (partially visible behind the Cheerios box).\n- A small, blue package of what appears to be a candy or snack (possibly a \"Candy\" brand item, partially obscured).\n- A wooden pencil or utensil lying next to the clock.\n\nThese items are arranged on a dark surface against a plain, light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a jar of jif creamy peanut butter with a red lid",
+                "a large yellow box of cheerios cereal",
+                "labeled \"family size\" and \"you are loved\"",
+                "a small",
+                "white",
+                "square analog clock",
+                "a white ceramic bowl",
+                "a can of great value green beans",
+                "a metal fork",
+                "a metal spatula (or turner) with a black handle",
+                "a pair of scissors (partially visible behind the cheerios box)",
+                "a small",
+                "blue package of what appears to be a candy or snack (possibly a \"candy\" brand item",
+                "partially obscured)",
+                "a wooden pencil or utensil lying next to the clock",
+                "these items are arranged on a dark surface against a plain",
+                "light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "fork",
+                    "clock",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "can",
+                    "fork",
+                    "peanut butter jar",
+                    "clock"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "cereal box",
+                    "pencil"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "scissors",
+                    "spoon",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "spatula"
+                ],
+                "tp": 1
+            }
+        },
+        "8": {
+            "generation": [
+                "Based on the image provided, here is a list of the objects on the table:\n\n- A stainless steel thermos with a black lid\n- A box of tissue paper (with blue and white stripes)\n- A jar of Jif Creamy Peanut Butter (with a red lid)\n- A can of green beans (partially visible behind the peanut butter)\n- A small white ceramic bowl\n- A black plastic spatula\n- A beige ceramic mug\n- A tube of toothpaste (brand appears to be Crest, with \"Cavity Protection\" visible)\n- A pair of black-handled scissors\n- A metal fork\n- A small white digital scale (partially visible under the mug)"
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a stainless steel thermos with a black lid",
+                "a box of tissue paper (with blue and white stripes)",
+                "a jar of jif creamy peanut butter (with a red lid)",
+                "a can of green beans (partially visible behind the peanut butter)",
+                "a small white ceramic bowl",
+                "a black plastic spatula",
+                "a beige ceramic mug",
+                "a tube of toothpaste (brand appears to be crest",
+                "with \"cavity protection\" visible)",
+                "a pair of black-handled scissors",
+                "a metal fork",
+                "a small white digital scale (partially visible under the mug)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "bowl",
+                    "mug",
+                    "fork"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "mug",
+                    "bowl",
+                    "fork",
+                    "bottle"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "scissors",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "toothpaste",
+                    "peanut butter jar"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "can",
+                    "spatula"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "whisk",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "9": {
+            "generation": [
+                "Based on the image provided, here is a list of the objects on the table:\n\n- A white ceramic bowl\n- A beige ceramic mug\n- A silver thermos with a black lid (the brand \"MILK\" is partially visible)\n- A small white analog clock\n- A metal wire whisk\n- A black spatula\n- A pencil\n- A jar of peanut butter with a red lid and green/blue label (the brand appears to be \"If\" or similar, with \"GLUTEN FREE\" and \"7g PROTEIN\" visible)\n- A clear plastic box (possibly for tissues or napkins) behind the peanut butter jar\n- A small silver spoon (partially visible behind the spatula)"
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a white ceramic bowl",
+                "a beige ceramic mug",
+                "a silver thermos with a black lid (the brand \"milk\" is partially visible)",
+                "a small white analog clock",
+                "a metal wire whisk",
+                "a black spatula",
+                "a pencil",
+                "a jar of peanut butter with a red lid and green/blue label (the brand appears to be \"if\" or similar",
+                "with \"gluten free\" and \"7g protein\" visible)",
+                "a clear plastic box (possibly for tissues or napkins) behind the peanut butter jar",
+                "a small silver spoon (partially visible behind the spatula)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bowl",
+                    "mug",
+                    "bottle",
+                    "peanut butter jar",
+                    "spatula"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "peanut butter jar",
+                    "mug",
+                    "spatula",
+                    "bowl",
+                    "bottle"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "pencil"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk",
+                    "clock"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "scissors",
+                    "spoon",
+                    "fork",
+                    "tissue box"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "spoon"
+                ],
+                "tp": 1
+            }
+        },
+        "10": {
+            "generation": [
+                "Based on the image provided, here is a list of the objects on the table:\n\n- A yellow box of Cheerios cereal (with the slogan \"You are loved\" visible)\n- A jar of peanut butter with a red lid\n- A can of Great Value Green Beans\n- A white ceramic bowl\n- A beige ceramic mug\n- A tissue box with gray and white vertical stripes\n- A tube of Colgate toothpaste (blue and red packaging)\n- A metal wire whisk\n- A pencil (or possibly a pen)\n- A small black object that appears to be a spatula or a small tool\n- A silver spoon (partially visible behind the bowl)\n- Two small black circular objects (possibly bottle caps or part of a utensil set)"
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a yellow box of cheerios cereal (with the slogan \"you are loved\" visible)",
+                "a jar of peanut butter with a red lid",
+                "a can of great value green beans",
+                "a white ceramic bowl",
+                "a beige ceramic mug",
+                "a tissue box with gray and white vertical stripes",
+                "a tube of colgate toothpaste (blue and red packaging)",
+                "a metal wire whisk",
+                "a pencil (or possibly a pen)",
+                "a small black object that appears to be a spatula or a small tool",
+                "a silver spoon (partially visible behind the bowl)",
+                "two small black circular objects (possibly bottle caps or part of a utensil set)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bowl",
+                    "mug",
+                    "toothpaste",
+                    "whisk"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "mug",
+                    "bowl",
+                    "toothpaste",
+                    "whisk"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spoon",
+                    "can",
+                    "pencil",
+                    "tissue box",
+                    "cereal box"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "spoon",
+                    "cereal box",
+                    "pencil",
+                    "can",
+                    "tissue box"
+                ],
+                "tp": 5
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "peanut butter jar"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "spatula"
+                ],
+                "tp": 1
+            }
+        },
+        "11": {
+            "generation": [
+                "Based on the image provided, here are the objects on the table:\n\n- A jar of peanut butter with a red lid (brand appears to be \"Great Value\" or similar, with \"if\" visible on the label)\n- A can of \"Great Value\" brand Green Beans\n- A beige ceramic mug\n- A white ceramic bowl\n- A metal spoon\n- A tube of toothpaste (brand appears to be \"Cavity\")\n- A tall, silver thermos with a black lid\n- A gold-colored pencil\n- A fork (partially visible)\n- A pair of scissors (partially visible, behind the thermos)\n- A small metal wire rack (behind the can of green beans)\n\nThese items are arranged on a dark blue or black tabletop against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a jar of peanut butter with a red lid (brand appears to be \"great value\" or similar",
+                "with \"if\" visible on the label)",
+                "a can of \"great value\" brand green beans",
+                "a beige ceramic mug",
+                "a white ceramic bowl",
+                "a metal spoon",
+                "a tube of toothpaste (brand appears to be \"cavity\")",
+                "a tall",
+                "silver thermos with a black lid",
+                "a gold-colored pencil",
+                "a fork (partially visible)",
+                "a pair of scissors (partially visible",
+                "behind the thermos)",
+                "a small metal wire rack (behind the can of green beans)",
+                "these items are arranged on a dark blue or black tabletop against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "bowl",
+                    "bottle",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "peanut butter jar",
+                    "mug",
+                    "can",
+                    "bowl",
+                    "bottle"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "fork",
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "spoon",
+                    "fork",
+                    "pencil"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "scissors",
+                    "toothpaste"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "12": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the table:\n\n- A yellow cereal box for Cheerios, specifically the \"Daily Affirmations\" edition. The box features various affirmations in English and Spanish (e.g., \"MY BEST is good enough\", \"I grow and learn every day\", \"CREO EN M\u00cd\", \"SOY FELIZ\").\n- A stainless steel thermos or travel mug with a black lid and a small logo on the side.\n- A tissue box with a blue, gray, and white striped pattern. A white tissue is pulled out from the top opening.\n- A white plate or dish partially visible behind the tissue box.\n- A black plastic utensil (possibly a slotted spoon or spatula) resting on the white plate.\n- A small, light brown or beige bowl or cup behind the tissue box.\n- A silver spoon with a rounded handle, partially visible on the right side of the tissue box.\n\nThe table surface appears to be dark blue or black."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a yellow cereal box for cheerios",
+                "specifically the \"daily affirmations\" edition",
+                "box features various affirmations in english and spanish (e.g",
+                "\"my best is good enough\"",
+                "\"i grow and learn every day\"",
+                "\"creo en m\u00ed\"",
+                "\"soy feliz\")",
+                "a stainless steel thermos or travel mug with a black lid and a small logo on the side",
+                "a tissue box with a blue",
+                "gray",
+                "and white striped pattern",
+                "white tissue is pulled out from the top opening",
+                "a white plate or dish partially visible behind the tissue box",
+                "a black plastic utensil (possibly a slotted spoon or spatula) resting on the white plate",
+                "a small",
+                "light brown or beige bowl or cup behind the tissue box",
+                "a silver spoon with a rounded handle",
+                "partially visible on the right side of the tissue box"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "tissue box"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "cereal box",
+                    "tissue box"
+                ],
+                "tp": 2
+            },
+            "low_occlusion": {
+                "objects": [
+                    "bottle"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "bottle"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "bowl",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "mug",
+                    "spatula"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug",
+                    "spatula"
+                ],
+                "tp": 2
+            }
+        },
+        "13": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the table:\n\n- A large yellow box of Cheerios cereal, specifically the \"Limited Edition\" with the \"You are loved\" slogan and heart-shaped cereal.\n- A beige or light brown ceramic mug.\n- A white ceramic bowl.\n- A fork, partially visible next to the bowl.\n- A tissue box with blue and grey vertical stripes, with a tissue pulled out.\n- A small, square clock or timer with a white face and black hands, sitting behind the tissue box.\n- A pencil with a yellow body and black markings, lying horizontally in front of the cereal box.\n- A small, blue and red package, likely a snack or candy bar, with the word \"Candy\" visible.\n- A pair of scissors with black handles, partially obscured behind the mug and tissue box.\n- A small, cylindrical container (possibly a canister or bottle) behind the cereal box.\n\nThese items are arranged on a dark-colored table against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a large yellow box of cheerios cereal",
+                "specifically the \"limited edition\" with the \"you are loved\" slogan and heart-shaped cereal",
+                "a beige or light brown ceramic mug",
+                "a white ceramic bowl",
+                "a fork",
+                "partially visible next to the bowl",
+                "a tissue box with blue and grey vertical stripes",
+                "with a tissue pulled out",
+                "a small",
+                "square clock or timer with a white face and black hands",
+                "sitting behind the tissue box",
+                "a pencil with a yellow body and black markings",
+                "lying horizontally in front of the cereal box",
+                "a small",
+                "blue and red package",
+                "likely a snack or candy bar",
+                "with the word \"candy\" visible",
+                "a pair of scissors with black handles",
+                "partially obscured behind the mug and tissue box",
+                "a small",
+                "cylindrical container (possibly a canister or bottle) behind the cereal box"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "cereal box",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "cereal box",
+                    "pencil"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "bowl",
+                    "toothpaste",
+                    "clock"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bowl",
+                    "tissue box",
+                    "clock"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "fork",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "scissors",
+                    "fork"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bottle",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "bottle"
+                ],
+                "tp": 1
+            }
+        },
+        "14": {
+            "generation": [
+                "Based on the image provided, here is a list of the objects on the table:\n\n- A stainless steel thermos with a black lid\n- A jar of Jif Creamy Peanut Butter (red lid, red, blue, and green label)\n- A box of tissues with a blue and white striped pattern\n- A white ceramic bowl\n- A fork (metallic, with tines visible)\n- A beige ceramic mug\n- A small, square digital clock (showing time, partially obscured)\n- A pencil (wooden, with a red eraser tip)\n- A small metal whisk (partially visible behind the peanut butter jar)\n- A small blue packet (possibly a snack or tea bag, partially visible)\n- A small cylindrical container (possibly a spice jar, partially visible behind the thermos)\n- A white paper towel or napkin (partially visible, tucked into the tissue box)\n\nThese items are arranged on a dark blue or black tabletop against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a stainless steel thermos with a black lid",
+                "a jar of jif creamy peanut butter (red lid",
+                "red",
+                "blue",
+                "and green label)",
+                "a box of tissues with a blue and white striped pattern",
+                "a white ceramic bowl",
+                "a fork (metallic",
+                "with tines visible)",
+                "a beige ceramic mug",
+                "a small",
+                "square digital clock (showing time",
+                "partially obscured)",
+                "a pencil (wooden",
+                "with a red eraser tip)",
+                "a small metal whisk (partially visible behind the peanut butter jar)",
+                "a small blue packet (possibly a snack or tea bag",
+                "partially visible)",
+                "a small cylindrical container (possibly a spice jar",
+                "partially visible behind the thermos)",
+                "a white paper towel or napkin (partially visible",
+                "tucked into the tissue box)",
+                "these items are arranged on a dark blue or black tabletop against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "bottle",
+                    "tissue box",
+                    "bowl"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bowl",
+                    "mug",
+                    "tissue box",
+                    "bottle"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil",
+                    "peanut butter jar",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "fork",
+                    "peanut butter jar",
+                    "pencil"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "can",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk"
+                ],
+                "tp": 1
+            }
+        },
+        "15": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark-colored table:\n\n- A jar of peanut butter with a red lid and a green and blue label (the brand appears to be \"Jif\").\n- A yellow cereal box (likely Cheerios, based on the visible \"O\" shapes and the \"You\" text).\n- A black spatula.\n- A small, square, white analog clock (or timer) with black hands.\n- A metal whisk.\n- A small, white ceramic bowl.\n- A can of \"Cut Green Beans\" (the label is visible).\n- A brown ceramic mug.\n- A metal fork.\n\nThese items appear to be ingredients or kitchen tools, possibly gathered for making a meal or snack."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a jar of peanut butter with a red lid and a green and blue label (the brand appears to be \"jif\")",
+                "a yellow cereal box (likely cheerios",
+                "based on the visible \"o\" shapes and the \"you\" text)",
+                "a black spatula",
+                "a small",
+                "square",
+                "white analog clock (or timer) with black hands",
+                "a metal whisk",
+                "a small",
+                "white ceramic bowl",
+                "a can of \"cut green beans\" (the label is visible)",
+                "a brown ceramic mug",
+                "a metal fork",
+                "these items appear to be ingredients or kitchen tools",
+                "possibly gathered for making a meal or snack"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bowl",
+                    "can",
+                    "clock"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "can",
+                    "bowl",
+                    "peanut butter jar",
+                    "clock"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spatula",
+                    "cereal box"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "cereal box",
+                    "spatula"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "whisk",
+                    "mug",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "fork",
+                    "whisk"
+                ],
+                "tp": 3
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "16": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the table:\n\n- A large jar of peanut butter with a red lid (partially visible label shows \"if\" and \"7g PROTEIN\")\n- A brown ceramic mug\n- A white ceramic bowl\n- A small, square, white analog clock (showing approximately 7:10)\n- A metal fork\n- A metal spoon\n- A metal whisk (partially visible behind the bowl)\n- A large yellow box of Cheerios cereal (with the slogan \"You are loved\" and \"Heart Healthy\" visible)\n- A can of Great Value brand food (possibly green beans, partially visible behind the cereal box)\n- A pencil (lying on the table near the peanut butter jar)\n\nThese items appear to be arranged as if for making a peanut butter and cereal breakfast."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a large jar of peanut butter with a red lid (partially visible label shows \"if\" and \"7g protein\")",
+                "a brown ceramic mug",
+                "a white ceramic bowl",
+                "a small",
+                "square",
+                "white analog clock (showing approximately 7:10)",
+                "a metal fork",
+                "a metal spoon",
+                "a metal whisk (partially visible behind the bowl)",
+                "a large yellow box of cheerios cereal (with the slogan \"you are loved\" and \"heart healthy\" visible)",
+                "a can of great value brand food (possibly green beans",
+                "partially visible behind the cereal box)",
+                "these items appear to be arranged as if for making a peanut butter and cereal breakfast"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "bowl",
+                    "clock",
+                    "mug",
+                    "peanut butter jar",
+                    "fork"
+                ],
+                "num_objects": 6,
+                "true_positives": [
+                    "peanut butter jar",
+                    "mug",
+                    "cereal box",
+                    "bowl",
+                    "fork",
+                    "clock"
+                ],
+                "tp": 6
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil",
+                    "spoon",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "spoon"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk"
+                ],
+                "tp": 1
+            }
+        },
+        "17": {
+            "generation": [
+                "Based on the image provided, here is a list of the objects on the table:\n\n- A jar of Jif Creamy Peanut Butter (with a red lid)\n- A box of tissues (partially visible behind the peanut butter jar)\n- A brown ceramic mug\n- A can of Great Value Green Beans\n- A small, square, white analog clock\n- A metal spoon\n- A black spatula\n- A silver-colored Hamilton vacuum flask (thermos) with a black lid\n- A metal whisk\n- A small white bowl (partially visible behind the thermos)\n\nThese items appear to be arranged on a dark blue or black tabletop against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a jar of jif creamy peanut butter (with a red lid)",
+                "a box of tissues (partially visible behind the peanut butter jar)",
+                "a brown ceramic mug",
+                "a can of great value green beans",
+                "a small",
+                "square",
+                "white analog clock",
+                "a metal spoon",
+                "a black spatula",
+                "a silver-colored hamilton vacuum flask (thermos) with a black lid",
+                "a metal whisk",
+                "a small white bowl (partially visible behind the thermos)",
+                "these items appear to be arranged on a dark blue or black tabletop against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "clock",
+                    "can",
+                    "spatula",
+                    "bottle"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "peanut butter jar",
+                    "spatula",
+                    "can",
+                    "clock",
+                    "bottle"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "whisk",
+                    "mug"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "toothpaste",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bowl",
+                    "tissue box"
+                ],
+                "tp": 2
+            }
+        },
+        "18": {
+            "generation": [
+                "Based on the image provided, here are the objects on the table:\n\n- A beige ceramic mug\n- A white ceramic bowl (partially visible behind the mug)\n- A metal whisk (coiled wire)\n- A jar of Jif peanut butter (with red lid)\n- A box of Cheerios cereal (yellow box with \"You are loved\" slogan)\n- A silver thermos with a black lid\n- A yellow pencil\n- A striped tissue box (blue, gray, and white stripes) with a tissue pulled out\n- A tube of Colgate toothpaste (partially visible behind the tissue box)\n- A pair of black-handled scissors (partially visible behind the whisk)\n- A small digital clock (partially visible behind the peanut butter jar)\n\nThese items are arranged on a dark-colored tabletop against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a beige ceramic mug",
+                "a white ceramic bowl (partially visible behind the mug)",
+                "a metal whisk (coiled wire)",
+                "a jar of jif peanut butter (with red lid)",
+                "a box of cheerios cereal (yellow box with \"you are loved\" slogan)",
+                "a silver thermos with a black lid",
+                "a yellow pencil",
+                "a striped tissue box (blue",
+                "gray",
+                "and white stripes) with a tissue pulled out",
+                "a tube of colgate toothpaste (partially visible behind the tissue box)",
+                "a pair of black-handled scissors (partially visible behind the whisk)",
+                "a small digital clock (partially visible behind the peanut butter jar)",
+                "these items are arranged on a dark-colored tabletop against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "pencil",
+                    "tissue box"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "tissue box",
+                    "pencil"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "scissors",
+                    "bottle",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "scissors",
+                    "cereal box",
+                    "toothpaste",
+                    "bottle"
+                ],
+                "tp": 4
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "peanut butter jar",
+                    "clock"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bowl",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "bowl",
+                    "whisk"
+                ],
+                "tp": 2
+            }
+        },
+        "19": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the table:\n\n- A jar of Jif Creamy Peanut Butter (with a red lid)\n- A yellow box of Cheerios cereal (Family Size)\n- A tall, silver thermos with a black lid\n- A beige ceramic mug\n- A small, white analog clock\n- A metal wire whisk\n- A small, blue can (likely a can of Great Value brand product, partially visible)\n- A tissue box with blue, gray, and white vertical stripes, with a tissue pulled out\n- A metal fork or spoon (partially visible behind the mug)\n- A black object that appears to be a pen or marker (partially visible behind the tissue box)\n\nThese items are arranged on a dark-colored tabletop against a light-colored wall."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a jar of jif creamy peanut butter (with a red lid)",
+                "a yellow box of cheerios cereal (family size)",
+                "a tall",
+                "silver thermos with a black lid",
+                "a beige ceramic mug",
+                "a small",
+                "white analog clock",
+                "a metal wire whisk",
+                "a small",
+                "blue can (likely a can of great value brand product",
+                "partially visible)",
+                "a tissue box with blue",
+                "gray",
+                "and white vertical stripes",
+                "with a tissue pulled out",
+                "a metal fork or spoon (partially visible behind the mug)",
+                "a black object that appears to be a pen or marker (partially visible behind the tissue box)",
+                "these items are arranged on a dark-colored tabletop against a light-colored wall"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "tissue box"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "tissue box",
+                    "peanut butter jar",
+                    "bottle"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "mug",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug",
+                    "clock"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "pencil",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "cereal box",
+                    "fork"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "whisk",
+                    "scissors",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "can",
+                    "whisk"
+                ],
+                "tp": 2
+            }
+        },
+        "20": {
+            "generation": [
+                "Based on the image provided, here are the objects visible on the dark-colored table:\n\n- A can of Great Value Green Beans\n- A white ceramic bowl\n- A black plastic spatula\n- A silver fork\n- A jar of Jif Creamy Peanut Butter with a red lid\n- A striped tissue box with a white tissue pulled out\n- A pair of black-handled scissors\n- A small white digital timer or clock\n- A small white ceramic mug (partially visible behind the peanut butter jar)\n- A tube of toothpaste (Cavity) lying next to the tissue box\n- A small metal spoon or utensil (partially visible behind the bowl)\n\nThese items appear to be kitchen and bathroom supplies arranged on a countertop or table."
+            ],
+            "generation_objects": [
+                "based on the image provided",
+                "a can of great value green beans",
+                "a white ceramic bowl",
+                "a black plastic spatula",
+                "a silver fork",
+                "a jar of jif creamy peanut butter with a red lid",
+                "a striped tissue box with a white tissue pulled out",
+                "a pair of black-handled scissors",
+                "a small white digital timer or clock",
+                "a small white ceramic mug (partially visible behind the peanut butter jar)",
+                "a tube of toothpaste (cavity) lying next to the tissue box",
+                "a small metal spoon or utensil (partially visible behind the bowl)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "peanut butter jar",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "spatula",
+                    "can",
+                    "tissue box",
+                    "peanut butter jar"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "bowl",
+                    "fork",
+                    "scissors"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "bowl",
+                    "fork"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "spoon",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon",
+                    "clock"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "pencil",
+                    "mug",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "toothpaste"
+                ],
+                "tp": 2
+            }
+        }
+    }
+}

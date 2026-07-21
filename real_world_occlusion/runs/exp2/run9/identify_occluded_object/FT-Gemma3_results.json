@@ -1,0 +1,3766 @@
+{
+    "overall": {
+        "total_scenes": 50,
+        "no_occlusion_generation": {
+            "num_correct": 46,
+            "accuracy": 92.0
+        },
+        "low_occlusion_generation": {
+            "num_correct": 42,
+            "accuracy": 84.0
+        },
+        "medium_occlusion_generation": {
+            "num_correct": 32,
+            "accuracy": 64.0
+        },
+        "high_occlusion_generation": {
+            "num_correct": 9,
+            "accuracy": 18.0
+        }
+    },
+    "individual": {
+        "1": {
+            "occluded_object": "spoon",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "spoon",
+                "bowl",
+                "spatula",
+                "mug",
+                "can",
+                "bottle",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. spoon\n3. can\n4. peanut butter jar\n5. spatula\n6. mug\n7. bowl",
+                "generation_objects": [
+                    "bottle",
+                    "spoon",
+                    "can",
+                    "peanut butter jar",
+                    "spatula",
+                    "mug",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. spoon\n3. bottle\n4. mug\n5. can\n6. bowl\n7. spatula",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "spoon",
+                    "bottle",
+                    "mug",
+                    "can",
+                    "bowl",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. spatula\n3. mug\n4. bottle\n5. peanut butter jar\n6. bowl",
+                "generation_objects": [
+                    "can",
+                    "spatula",
+                    "mug",
+                    "bottle",
+                    "peanut butter jar",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. can\n3. peanut butter jar\n4. spatula\n5. bowl\n6. mug",
+                "generation_objects": [
+                    "bottle",
+                    "can",
+                    "peanut butter jar",
+                    "spatula",
+                    "bowl",
+                    "mug"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "2": {
+            "occluded_object": "bowl",
+            "occluding_object": "bottle",
+            "objects": [
+                "bowl",
+                "tissue box",
+                "peanut butter jar",
+                "toothpaste",
+                "can",
+                "fork",
+                "scissors",
+                "mug",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. tissue box\n4. fork\n5. toothpaste\n6. peanut butter jar\n7. can\n8. bowl\n9. scissors",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "tissue box",
+                    "fork",
+                    "toothpaste",
+                    "peanut butter jar",
+                    "can",
+                    "bowl",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. can\n3. toothpaste\n4. fork\n5. scissors\n6. peanut butter jar\n7. tissue box\n8. bottle\n9. bowl",
+                "generation_objects": [
+                    "mug",
+                    "can",
+                    "toothpaste",
+                    "fork",
+                    "scissors",
+                    "peanut butter jar",
+                    "tissue box",
+                    "bottle",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. mug\n3. can\n4. scissors\n5. fork\n6. bottle\n7. tissue box\n8. bowl\n9. peanut butter jar",
+                "generation_objects": [
+                    "toothpaste",
+                    "mug",
+                    "can",
+                    "scissors",
+                    "fork",
+                    "bottle",
+                    "tissue box",
+                    "bowl",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. fork\n4. can\n5. toothpaste\n6. tissue box\n7. peanut butter jar\n8. scissors",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "fork",
+                    "can",
+                    "toothpaste",
+                    "tissue box",
+                    "peanut butter jar",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "3": {
+            "occluded_object": "clock",
+            "occluding_object": "cereal box",
+            "objects": [
+                "clock",
+                "pencil",
+                "bowl",
+                "toothpaste",
+                "scissors",
+                "mug",
+                "can",
+                "spatula",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. mug\n3. toothpaste\n4. clock\n5. bowl\n6. can\n7. chopsticks",
+                "generation_objects": [
+                    "cereal box",
+                    "mug",
+                    "toothpaste",
+                    "clock",
+                    "bowl",
+                    "can",
+                    "chopsticks"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. cereal box\n3. toothpaste\n4. scissors\n5. can\n6. bowl\n7. pencil\n8. spoon",
+                "generation_objects": [
+                    "mug",
+                    "cereal box",
+                    "toothpaste",
+                    "scissors",
+                    "can",
+                    "bowl",
+                    "pencil",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. pencil\n3. scissors\n4. can\n5. bowl\n6. toothpaste\n7. clock\n8. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "pencil",
+                    "scissors",
+                    "can",
+                    "bowl",
+                    "toothpaste",
+                    "clock",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bowl\n2. can\n3. cereal box\n4. mug\n5. scissors\n6. toothpaste\n7. spoon\n8. fork",
+                "generation_objects": [
+                    "bowl",
+                    "can",
+                    "cereal box",
+                    "mug",
+                    "scissors",
+                    "toothpaste",
+                    "spoon",
+                    "fork"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "4": {
+            "occluded_object": "tissue box",
+            "occluding_object": "cereal box",
+            "objects": [
+                "tissue box",
+                "peanut butter jar",
+                "bottle",
+                "whisk",
+                "mug",
+                "toothpaste",
+                "spoon",
+                "scissors",
+                "clock",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. cereal box\n3. bottle\n4. mug\n5. scissors\n6. clock\n7. tissue box\n8. peanut butter jar\n9. whisk",
+                "generation_objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "bottle",
+                    "mug",
+                    "scissors",
+                    "clock",
+                    "tissue box",
+                    "peanut butter jar",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. whisk\n3. mug\n4. clock\n5. bottle\n6. peanut butter jar\n7. cereal box\n8. scissors\n9. tissue box",
+                "generation_objects": [
+                    "toothpaste",
+                    "whisk",
+                    "mug",
+                    "clock",
+                    "bottle",
+                    "peanut butter jar",
+                    "cereal box",
+                    "scissors",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. clock\n3. scissors\n4. mug\n5. whisk\n6. peanut butter jar\n7. bottle\n8. toothpaste\n9. tissue box",
+                "generation_objects": [
+                    "cereal box",
+                    "clock",
+                    "scissors",
+                    "mug",
+                    "whisk",
+                    "peanut butter jar",
+                    "bottle",
+                    "toothpaste",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. cereal box\n3. toothpaste\n4. whisk\n5. peanut butter jar\n6. mug\n7. clock\n8. scissors",
+                "generation_objects": [
+                    "bottle",
+                    "cereal box",
+                    "toothpaste",
+                    "whisk",
+                    "peanut butter jar",
+                    "mug",
+                    "clock",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "5": {
+            "occluded_object": "spatula",
+            "occluding_object": "mug",
+            "objects": [
+                "spatula",
+                "clock",
+                "fork",
+                "pencil",
+                "can",
+                "whisk",
+                "peanut butter jar",
+                "spoon",
+                "tissue box",
+                "bowl",
+                "mug"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bowl\n2. mug\n3. whisk\n4. pencil\n5. clock\n6. tissue box\n7. fork\n8. peanut butter jar\n9. can\n10. spatula",
+                "generation_objects": [
+                    "bowl",
+                    "mug",
+                    "whisk",
+                    "pencil",
+                    "clock",
+                    "tissue box",
+                    "fork",
+                    "peanut butter jar",
+                    "can",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. mug\n3. whisk\n4. tissue box\n5. pencil\n6. bowl\n7. peanut butter jar\n8. spatula\n9. spoon\n10. can",
+                "generation_objects": [
+                    "clock",
+                    "mug",
+                    "whisk",
+                    "tissue box",
+                    "pencil",
+                    "bowl",
+                    "peanut butter jar",
+                    "spatula",
+                    "spoon",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. spoon\n3. tissue box\n4. whisk\n5. pencil\n6. bowl\n7. clock\n8. can\n9. peanut butter jar",
+                "generation_objects": [
+                    "mug",
+                    "spoon",
+                    "tissue box",
+                    "whisk",
+                    "pencil",
+                    "bowl",
+                    "clock",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. tissue box\n3. whisk\n4. spoon\n5. peanut butter jar\n6. bowl\n7. clock\n8. pencil\n9. can",
+                "generation_objects": [
+                    "mug",
+                    "tissue box",
+                    "whisk",
+                    "spoon",
+                    "peanut butter jar",
+                    "bowl",
+                    "clock",
+                    "pencil",
+                    "can"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "6": {
+            "occluded_object": "can",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "can",
+                "toothpaste",
+                "bowl",
+                "pencil",
+                "fork",
+                "spatula",
+                "spoon",
+                "tissue box",
+                "clock",
+                "bottle",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. bottle\n3. peanut butter jar\n4. tissue box\n5. bowl\n6. clock\n7. fork\n8. pencil\n9. whisk\n10. spatula\n11. toothpaste",
+                "generation_objects": [
+                    "can",
+                    "bottle",
+                    "peanut butter jar",
+                    "tissue box",
+                    "bowl",
+                    "clock",
+                    "fork",
+                    "pencil",
+                    "whisk",
+                    "spatula",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. clock\n3. tissue box\n4. peanut butter jar\n5. spoon\n6. bowl\n7. can\n8. fork\n9. toothpaste\n10. pencil\n11. scissors\n12. chopsticks",
+                "generation_objects": [
+                    "bottle",
+                    "clock",
+                    "tissue box",
+                    "peanut butter jar",
+                    "spoon",
+                    "bowl",
+                    "can",
+                    "fork",
+                    "toothpaste",
+                    "pencil",
+                    "scissors",
+                    "chopsticks"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. fork\n3. tissue box\n4. spoon\n5. peanut butter jar\n6. clock\n7. bowl\n8. toothpaste\n9. scissors\n10. chopsticks",
+                "generation_objects": [
+                    "bottle",
+                    "fork",
+                    "tissue box",
+                    "spoon",
+                    "peanut butter jar",
+                    "clock",
+                    "bowl",
+                    "toothpaste",
+                    "scissors",
+                    "chopsticks"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. bottle\n3. tissue box\n4. fork\n5. bowl\n6. clock\n7. spoon\n8. toothpaste\n9. whisk\n10. chopsticks",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "tissue box",
+                    "fork",
+                    "bowl",
+                    "clock",
+                    "spoon",
+                    "toothpaste",
+                    "whisk",
+                    "chopsticks"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "7": {
+            "occluded_object": "spatula",
+            "occluding_object": "can",
+            "objects": [
+                "spatula",
+                "bowl",
+                "mug",
+                "scissors",
+                "cereal box",
+                "whisk",
+                "spoon",
+                "bottle",
+                "pencil",
+                "can"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. cereal box\n3. fork\n4. spoon\n5. can\n6. bottle\n7. mug\n8. spatula\n9. bowl\n10. pencil",
+                "generation_objects": [
+                    "whisk",
+                    "cereal box",
+                    "fork",
+                    "spoon",
+                    "can",
+                    "bottle",
+                    "mug",
+                    "spatula",
+                    "bowl",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. whisk\n3. bottle\n4. mug\n5. pencil\n6. scissors\n7. bowl\n8. spatula\n9. cereal box",
+                "generation_objects": [
+                    "can",
+                    "whisk",
+                    "bottle",
+                    "mug",
+                    "pencil",
+                    "scissors",
+                    "bowl",
+                    "spatula",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. can\n3. mug\n4. whisk\n5. bottle\n6. scissors\n7. pencil\n8. bowl\n9. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "can",
+                    "mug",
+                    "whisk",
+                    "bottle",
+                    "scissors",
+                    "pencil",
+                    "bowl",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. whisk\n3. scissors\n4. bowl\n5. pencil\n6. bottle\n7. fork\n8. mug\n9. cereal box",
+                "generation_objects": [
+                    "can",
+                    "whisk",
+                    "scissors",
+                    "bowl",
+                    "pencil",
+                    "bottle",
+                    "fork",
+                    "mug",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "8": {
+            "occluded_object": "mug",
+            "occluding_object": "tissue box",
+            "objects": [
+                "mug",
+                "bottle",
+                "scissors",
+                "bowl",
+                "toothpaste",
+                "spoon",
+                "fork",
+                "whisk",
+                "can",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. bottle\n3. bowl\n4. can\n5. mug\n6. whisk\n7. tissue box\n8. scissors\n9. fork\n10. spoon",
+                "generation_objects": [
+                    "toothpaste",
+                    "bottle",
+                    "bowl",
+                    "can",
+                    "mug",
+                    "whisk",
+                    "tissue box",
+                    "scissors",
+                    "fork",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. mug\n3. toothpaste\n4. whisk\n5. bottle\n6. bowl\n7. fork\n8. can",
+                "generation_objects": [
+                    "tissue box",
+                    "mug",
+                    "toothpaste",
+                    "whisk",
+                    "bottle",
+                    "bowl",
+                    "fork",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. bottle\n3. bowl\n4. fork\n5. toothpaste\n6. can\n7. tissue box\n8. mug\n9. scissors",
+                "generation_objects": [
+                    "whisk",
+                    "bottle",
+                    "bowl",
+                    "fork",
+                    "toothpaste",
+                    "can",
+                    "tissue box",
+                    "mug",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. toothpaste\n3. can\n4. bottle\n5. bowl\n6. tissue box\n7. spoon\n8. fork",
+                "generation_objects": [
+                    "whisk",
+                    "toothpaste",
+                    "can",
+                    "bottle",
+                    "bowl",
+                    "tissue box",
+                    "spoon",
+                    "fork"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "9": {
+            "occluded_object": "spoon",
+            "occluding_object": "can",
+            "objects": [
+                "spoon",
+                "cereal box",
+                "tissue box",
+                "fork",
+                "toothpaste",
+                "mug",
+                "scissors",
+                "can"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. can\n3. tissue box\n4. fork\n5. scissors\n6. toothpaste\n7. mug",
+                "generation_objects": [
+                    "cereal box",
+                    "can",
+                    "tissue box",
+                    "fork",
+                    "scissors",
+                    "toothpaste",
+                    "mug"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. tissue box\n3. fork\n4. can\n5. toothpaste\n6. cereal box\n7. scissors",
+                "generation_objects": [
+                    "mug",
+                    "tissue box",
+                    "fork",
+                    "can",
+                    "toothpaste",
+                    "cereal box",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. fork\n3. mug\n4. tissue box\n5. scissors\n6. cereal box\n7. toothpaste",
+                "generation_objects": [
+                    "can",
+                    "fork",
+                    "mug",
+                    "tissue box",
+                    "scissors",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. toothpaste\n3. can\n4. scissors\n5. cereal box\n6. fork\n7. tissue box",
+                "generation_objects": [
+                    "mug",
+                    "toothpaste",
+                    "can",
+                    "scissors",
+                    "cereal box",
+                    "fork",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "10": {
+            "occluded_object": "whisk",
+            "occluding_object": "bowl",
+            "objects": [
+                "whisk",
+                "cereal box",
+                "spatula",
+                "tissue box",
+                "scissors",
+                "bottle",
+                "mug",
+                "can",
+                "bowl"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. scissors\n2. whisk\n3. spoon\n4. can\n5. bowl\n6. cereal box\n7. tissue box\n8. mug\n9. bottle",
+                "generation_objects": [
+                    "scissors",
+                    "whisk",
+                    "spoon",
+                    "can",
+                    "bowl",
+                    "cereal box",
+                    "tissue box",
+                    "mug",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. bottle\n3. mug\n4. can\n5. bowl\n6. spatula\n7. tissue box\n8. whisk\n9. spoon\n10. fork",
+                "generation_objects": [
+                    "cereal box",
+                    "bottle",
+                    "mug",
+                    "can",
+                    "bowl",
+                    "spatula",
+                    "tissue box",
+                    "whisk",
+                    "spoon",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bowl\n2. whisk\n3. scissors\n4. bottle\n5. tissue box\n6. can\n7. cereal box\n8. mug",
+                "generation_objects": [
+                    "bowl",
+                    "whisk",
+                    "scissors",
+                    "bottle",
+                    "tissue box",
+                    "can",
+                    "cereal box",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. scissors\n3. bottle\n4. can\n5. mug\n6. whisk\n7. bowl\n8. tissue box\n9. spoon",
+                "generation_objects": [
+                    "cereal box",
+                    "scissors",
+                    "bottle",
+                    "can",
+                    "mug",
+                    "whisk",
+                    "bowl",
+                    "tissue box",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "11": {
+            "occluded_object": "spatula",
+            "occluding_object": "cereal box",
+            "objects": [
+                "spatula",
+                "whisk",
+                "fork",
+                "scissors",
+                "mug",
+                "bottle",
+                "peanut butter jar",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. bottle\n3. cereal box\n4. mug\n5. scissors\n6. whisk\n7. spatula\n8. peanut butter jar",
+                "generation_objects": [
+                    "fork",
+                    "bottle",
+                    "cereal box",
+                    "mug",
+                    "scissors",
+                    "whisk",
+                    "spatula",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. scissors\n3. bottle\n4. peanut butter jar\n5. whisk\n6. cereal box\n7. mug\n8. tissue box",
+                "generation_objects": [
+                    "fork",
+                    "scissors",
+                    "bottle",
+                    "peanut butter jar",
+                    "whisk",
+                    "cereal box",
+                    "mug",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. mug\n3. scissors\n4. cereal box\n5. whisk\n6. peanut butter jar\n7. spoon\n8. bottle",
+                "generation_objects": [
+                    "fork",
+                    "mug",
+                    "scissors",
+                    "cereal box",
+                    "whisk",
+                    "peanut butter jar",
+                    "spoon",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. cereal box\n3. fork\n4. scissors\n5. whisk\n6. mug\n7. bottle",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "cereal box",
+                    "fork",
+                    "scissors",
+                    "whisk",
+                    "mug",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "12": {
+            "occluded_object": "mug",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "mug",
+                "spatula",
+                "bottle",
+                "fork",
+                "scissors",
+                "clock",
+                "tissue box",
+                "toothpaste",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spatula\n2. toothpaste\n3. bottle\n4. scissors\n5. tissue box\n6. clock\n7. mug\n8. fork\n9. peanut butter jar",
+                "generation_objects": [
+                    "spatula",
+                    "toothpaste",
+                    "bottle",
+                    "scissors",
+                    "tissue box",
+                    "clock",
+                    "mug",
+                    "fork",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spatula\n2. clock\n3. scissors\n4. bottle\n5. peanut butter jar\n6. tissue box\n7. fork\n8. toothpaste\n9. mug",
+                "generation_objects": [
+                    "spatula",
+                    "clock",
+                    "scissors",
+                    "bottle",
+                    "peanut butter jar",
+                    "tissue box",
+                    "fork",
+                    "toothpaste",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. spatula\n3. fork\n4. tissue box\n5. scissors\n6. toothpaste\n7. peanut butter jar\n8. clock\n9. mug",
+                "generation_objects": [
+                    "bottle",
+                    "spatula",
+                    "fork",
+                    "tissue box",
+                    "scissors",
+                    "toothpaste",
+                    "peanut butter jar",
+                    "clock",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. tissue box\n3. scissors\n4. fork\n5. clock\n6. peanut butter jar\n7. spatula\n8. toothpaste",
+                "generation_objects": [
+                    "bottle",
+                    "tissue box",
+                    "scissors",
+                    "fork",
+                    "clock",
+                    "peanut butter jar",
+                    "spatula",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "13": {
+            "occluded_object": "spatula",
+            "occluding_object": "bowl",
+            "objects": [
+                "spatula",
+                "bottle",
+                "can",
+                "spoon",
+                "mug",
+                "scissors",
+                "clock",
+                "toothpaste",
+                "tissue box",
+                "bowl"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spatula\n2. mug\n3. scissors\n4. bowl\n5. can\n6. spoon\n7. toothpaste\n8. bottle\n9. clock\n10. tissue box",
+                "generation_objects": [
+                    "spatula",
+                    "mug",
+                    "scissors",
+                    "bowl",
+                    "can",
+                    "spoon",
+                    "toothpaste",
+                    "bottle",
+                    "clock",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. spoon\n3. scissors\n4. spatula\n5. toothpaste\n6. mug\n7. bowl\n8. clock\n9. bottle\n10. can",
+                "generation_objects": [
+                    "tissue box",
+                    "spoon",
+                    "scissors",
+                    "spatula",
+                    "toothpaste",
+                    "mug",
+                    "bowl",
+                    "clock",
+                    "bottle",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. spoon\n3. can\n4. spatula\n5. scissors\n6. bowl\n7. toothpaste\n8. mug\n9. clock\n10. bottle",
+                "generation_objects": [
+                    "tissue box",
+                    "spoon",
+                    "can",
+                    "spatula",
+                    "scissors",
+                    "bowl",
+                    "toothpaste",
+                    "mug",
+                    "clock",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. toothpaste\n3. tissue box\n4. scissors\n5. can\n6. fork\n7. bowl\n8. bottle\n9. spoon\n10. clock",
+                "generation_objects": [
+                    "mug",
+                    "toothpaste",
+                    "tissue box",
+                    "scissors",
+                    "can",
+                    "fork",
+                    "bowl",
+                    "bottle",
+                    "spoon",
+                    "clock"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "14": {
+            "occluded_object": "peanut butter jar",
+            "occluding_object": "cereal box",
+            "objects": [
+                "peanut butter jar",
+                "can",
+                "whisk",
+                "spoon",
+                "bowl",
+                "pencil",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. peanut butter jar\n3. whisk\n4. can\n5. bowl\n6. fork\n7. chopsticks",
+                "generation_objects": [
+                    "cereal box",
+                    "peanut butter jar",
+                    "whisk",
+                    "can",
+                    "bowl",
+                    "fork",
+                    "chopsticks"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. bowl\n3. can\n4. whisk\n5. peanut butter jar\n6. toothpaste\n7. fork\n8. chopsticks",
+                "generation_objects": [
+                    "cereal box",
+                    "bowl",
+                    "can",
+                    "whisk",
+                    "peanut butter jar",
+                    "toothpaste",
+                    "fork",
+                    "chopsticks"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. can\n3. whisk\n4. fork\n5. bowl\n6. peanut butter jar",
+                "generation_objects": [
+                    "cereal box",
+                    "can",
+                    "whisk",
+                    "fork",
+                    "bowl",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. whisk\n3. spoon\n4. can\n5. bowl\n6. chopsticks\n7. peanut butter jar",
+                "generation_objects": [
+                    "cereal box",
+                    "whisk",
+                    "spoon",
+                    "can",
+                    "bowl",
+                    "chopsticks",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "15": {
+            "occluded_object": "can",
+            "occluding_object": "tissue box",
+            "objects": [
+                "can",
+                "spoon",
+                "peanut butter jar",
+                "fork",
+                "bowl",
+                "spatula",
+                "scissors",
+                "clock",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. fork\n3. peanut butter jar\n4. spatula\n5. bowl\n6. clock\n7. scissors\n8. can",
+                "generation_objects": [
+                    "tissue box",
+                    "fork",
+                    "peanut butter jar",
+                    "spatula",
+                    "bowl",
+                    "clock",
+                    "scissors",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. spoon\n3. fork\n4. bowl\n5. can\n6. scissors\n7. tissue box\n8. clock",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "spoon",
+                    "fork",
+                    "bowl",
+                    "can",
+                    "scissors",
+                    "tissue box",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. peanut butter jar\n3. fork\n4. clock\n5. bowl\n6. scissors\n7. can\n8. spatula",
+                "generation_objects": [
+                    "tissue box",
+                    "peanut butter jar",
+                    "fork",
+                    "clock",
+                    "bowl",
+                    "scissors",
+                    "can",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. clock\n3. tissue box\n4. fork\n5. bowl\n6. spoon\n7. can\n8. scissors",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "clock",
+                    "tissue box",
+                    "fork",
+                    "bowl",
+                    "spoon",
+                    "can",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "16": {
+            "occluded_object": "spoon",
+            "occluding_object": "cereal box",
+            "objects": [
+                "spoon",
+                "toothpaste",
+                "fork",
+                "spatula",
+                "whisk",
+                "bowl",
+                "clock",
+                "bottle",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. cereal box\n3. spatula\n4. fork\n5. toothpaste\n6. bowl\n7. whisk\n8. clock",
+                "generation_objects": [
+                    "bottle",
+                    "cereal box",
+                    "spatula",
+                    "fork",
+                    "toothpaste",
+                    "bowl",
+                    "whisk",
+                    "clock"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. fork\n3. bottle\n4. bowl\n5. spatula\n6. clock\n7. whisk\n8. cereal box",
+                "generation_objects": [
+                    "toothpaste",
+                    "fork",
+                    "bottle",
+                    "bowl",
+                    "spatula",
+                    "clock",
+                    "whisk",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. fork\n3. spatula\n4. whisk\n5. bowl\n6. bottle\n7. cereal box\n8. clock",
+                "generation_objects": [
+                    "toothpaste",
+                    "fork",
+                    "spatula",
+                    "whisk",
+                    "bowl",
+                    "bottle",
+                    "cereal box",
+                    "clock"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. spatula\n3. bottle\n4. toothpaste\n5. bowl\n6. whisk\n7. fork\n8. clock",
+                "generation_objects": [
+                    "cereal box",
+                    "spatula",
+                    "bottle",
+                    "toothpaste",
+                    "bowl",
+                    "whisk",
+                    "fork",
+                    "clock"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "17": {
+            "occluded_object": "toothpaste",
+            "occluding_object": "mug",
+            "objects": [
+                "toothpaste",
+                "bottle",
+                "whisk",
+                "can",
+                "pencil",
+                "spoon",
+                "fork",
+                "scissors",
+                "bowl",
+                "cereal box",
+                "mug"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. cereal box\n3. fork\n4. spoon\n5. whisk\n6. can\n7. pencil\n8. bowl\n9. bottle\n10. toothpaste",
+                "generation_objects": [
+                    "mug",
+                    "cereal box",
+                    "fork",
+                    "spoon",
+                    "whisk",
+                    "can",
+                    "pencil",
+                    "bowl",
+                    "bottle",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. bowl\n3. fork\n4. mug\n5. spoon\n6. bottle\n7. can\n8. pencil\n9. whisk\n10. toothpaste",
+                "generation_objects": [
+                    "cereal box",
+                    "bowl",
+                    "fork",
+                    "mug",
+                    "spoon",
+                    "bottle",
+                    "can",
+                    "pencil",
+                    "whisk",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. bowl\n3. spoon\n4. fork\n5. mug\n6. cereal box\n7. whisk\n8. pencil\n9. can\n10. toothpaste",
+                "generation_objects": [
+                    "bottle",
+                    "bowl",
+                    "spoon",
+                    "fork",
+                    "mug",
+                    "cereal box",
+                    "whisk",
+                    "pencil",
+                    "can",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. bowl\n3. mug\n4. whisk\n5. can\n6. spatula\n7. fork\n8. pencil\n9. bottle\n10. spoon",
+                "generation_objects": [
+                    "cereal box",
+                    "bowl",
+                    "mug",
+                    "whisk",
+                    "can",
+                    "spatula",
+                    "fork",
+                    "pencil",
+                    "bottle",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "18": {
+            "occluded_object": "clock",
+            "occluding_object": "bowl",
+            "objects": [
+                "clock",
+                "bottle",
+                "tissue box",
+                "spoon",
+                "whisk",
+                "can",
+                "mug",
+                "scissors",
+                "pencil",
+                "bowl"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. bowl\n3. whisk\n4. fork\n5. can\n6. mug\n7. clock\n8. spoon\n9. scissors\n10. tissue box",
+                "generation_objects": [
+                    "bottle",
+                    "bowl",
+                    "whisk",
+                    "fork",
+                    "can",
+                    "mug",
+                    "clock",
+                    "spoon",
+                    "scissors",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. scissors\n3. can\n4. spoon\n5. bowl\n6. whisk\n7. clock\n8. bottle\n9. tissue box",
+                "generation_objects": [
+                    "mug",
+                    "scissors",
+                    "can",
+                    "spoon",
+                    "bowl",
+                    "whisk",
+                    "clock",
+                    "bottle",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. bowl\n4. scissors\n5. spoon\n6. whisk\n7. can\n8. tissue box\n9. pencil\n10. clock",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "bowl",
+                    "scissors",
+                    "spoon",
+                    "whisk",
+                    "can",
+                    "tissue box",
+                    "pencil",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bowl\n2. bottle\n3. spoon\n4. can\n5. mug\n6. scissors\n7. whisk\n8. tissue box\n9. pencil",
+                "generation_objects": [
+                    "bowl",
+                    "bottle",
+                    "spoon",
+                    "can",
+                    "mug",
+                    "scissors",
+                    "whisk",
+                    "tissue box",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "19": {
+            "occluded_object": "clock",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "clock",
+                "tissue box",
+                "spoon",
+                "spatula",
+                "bottle",
+                "can",
+                "scissors",
+                "bowl",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. scissors\n3. spoon\n4. peanut butter jar\n5. tissue box\n6. can\n7. bottle\n8. bowl",
+                "generation_objects": [
+                    "clock",
+                    "scissors",
+                    "spoon",
+                    "peanut butter jar",
+                    "tissue box",
+                    "can",
+                    "bottle",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. scissors\n3. clock\n4. peanut butter jar\n5. bottle\n6. can\n7. bowl\n8. tissue box",
+                "generation_objects": [
+                    "fork",
+                    "scissors",
+                    "clock",
+                    "peanut butter jar",
+                    "bottle",
+                    "can",
+                    "bowl",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. scissors\n3. tissue box\n4. bottle\n5. peanut butter jar\n6. can\n7. bowl\n8. clock\n9. fork",
+                "generation_objects": [
+                    "spoon",
+                    "scissors",
+                    "tissue box",
+                    "bottle",
+                    "peanut butter jar",
+                    "can",
+                    "bowl",
+                    "clock",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. scissors\n3. tissue box\n4. peanut butter jar\n5. bottle\n6. can\n7. bowl",
+                "generation_objects": [
+                    "spoon",
+                    "scissors",
+                    "tissue box",
+                    "peanut butter jar",
+                    "bottle",
+                    "can",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "20": {
+            "occluded_object": "spoon",
+            "occluding_object": "bottle",
+            "objects": [
+                "spoon",
+                "whisk",
+                "tissue box",
+                "cereal box",
+                "can",
+                "pencil",
+                "fork",
+                "toothpaste",
+                "peanut butter jar",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. tissue box\n3. cereal box\n4. fork\n5. can of beans\n6. spatula\n7. toothpaste\n8. whisk\n9. bottle",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "tissue box",
+                    "cereal box",
+                    "fork",
+                    "can of beans",
+                    "spatula",
+                    "toothpaste",
+                    "whisk",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. peanut butter jar\n3. fork\n4. can\n5. bottle\n6. tissue box\n7. whisk\n8. spatula\n9. toothpaste",
+                "generation_objects": [
+                    "cereal box",
+                    "peanut butter jar",
+                    "fork",
+                    "can",
+                    "bottle",
+                    "tissue box",
+                    "whisk",
+                    "spatula",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. peanut butter jar\n3. can\n4. whisk\n5. bottle\n6. cereal box\n7. toothpaste\n8. tissue box\n9. spoon\n10. spatula\n11. pencil",
+                "generation_objects": [
+                    "fork",
+                    "peanut butter jar",
+                    "can",
+                    "whisk",
+                    "bottle",
+                    "cereal box",
+                    "toothpaste",
+                    "tissue box",
+                    "spoon",
+                    "spatula",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. bottle\n3. cereal box\n4. tissue box\n5. fork\n6. peanut butter jar\n7. whisk\n8. toothpaste\n9. pencil\n10. spoon\n11. mug",
+                "generation_objects": [
+                    "can",
+                    "bottle",
+                    "cereal box",
+                    "tissue box",
+                    "fork",
+                    "peanut butter jar",
+                    "whisk",
+                    "toothpaste",
+                    "pencil",
+                    "spoon",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "21": {
+            "occluded_object": "spatula",
+            "occluding_object": "tissue box",
+            "objects": [
+                "spatula",
+                "mug",
+                "scissors",
+                "fork",
+                "bottle",
+                "can",
+                "toothpaste",
+                "peanut butter jar",
+                "clock",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. tissue box\n3. fork\n4. clock\n5. spatula\n6. scissors\n7. toothpaste\n8. mug\n9. can\n10. bottle",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "tissue box",
+                    "fork",
+                    "clock",
+                    "spatula",
+                    "scissors",
+                    "toothpaste",
+                    "mug",
+                    "can",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. fork\n3. toothpaste\n4. clock\n5. spatula\n6. scissors\n7. mug\n8. can\n9. tissue box\n10. peanut butter jar",
+                "generation_objects": [
+                    "bottle",
+                    "fork",
+                    "toothpaste",
+                    "clock",
+                    "spatula",
+                    "scissors",
+                    "mug",
+                    "can",
+                    "tissue box",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. toothpaste\n3. clock\n4. peanut butter jar\n5. can\n6. scissors\n7. mug\n8. tissue box\n9. spatula",
+                "generation_objects": [
+                    "bottle",
+                    "toothpaste",
+                    "clock",
+                    "peanut butter jar",
+                    "can",
+                    "scissors",
+                    "mug",
+                    "tissue box",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. scissors\n3. tissue box\n4. clock\n5. can\n6. fork\n7. mug\n8. bottle\n9. peanut butter jar",
+                "generation_objects": [
+                    "toothpaste",
+                    "scissors",
+                    "tissue box",
+                    "clock",
+                    "can",
+                    "fork",
+                    "mug",
+                    "bottle",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "22": {
+            "occluded_object": "peanut butter jar",
+            "occluding_object": "cereal box",
+            "objects": [
+                "peanut butter jar",
+                "bottle",
+                "scissors",
+                "pencil",
+                "whisk",
+                "clock",
+                "can",
+                "bowl",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. scissors\n3. whisk\n4. cereal box\n5. bowl\n6. can\n7. pencil\n8. bottle\n9. clock",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "scissors",
+                    "whisk",
+                    "cereal box",
+                    "bowl",
+                    "can",
+                    "pencil",
+                    "bottle",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. can\n3. bottle\n4. peanut butter jar\n5. cereal box\n6. clock\n7. bowl\n8. pencil\n9. tissue box",
+                "generation_objects": [
+                    "whisk",
+                    "can",
+                    "bottle",
+                    "peanut butter jar",
+                    "cereal box",
+                    "clock",
+                    "bowl",
+                    "pencil",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. bottle\n3. whisk\n4. peanut butter jar\n5. can\n6. bowl\n7. spoon\n8. clock",
+                "generation_objects": [
+                    "cereal box",
+                    "bottle",
+                    "whisk",
+                    "peanut butter jar",
+                    "can",
+                    "bowl",
+                    "spoon",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. bowl\n3. cereal box\n4. whisk\n5. clock\n6. can\n7. bottle\n8. pencil\n9. peanut butter jar",
+                "generation_objects": [
+                    "fork",
+                    "bowl",
+                    "cereal box",
+                    "whisk",
+                    "clock",
+                    "can",
+                    "bottle",
+                    "pencil",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "23": {
+            "occluded_object": "fork",
+            "occluding_object": "mug",
+            "objects": [
+                "fork",
+                "cereal box",
+                "pencil",
+                "toothpaste",
+                "can",
+                "bottle",
+                "tissue box",
+                "mug"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. fork\n3. mug\n4. bottle\n5. cereal box\n6. tissue box\n7. toothpaste\n8. pencil",
+                "generation_objects": [
+                    "can",
+                    "fork",
+                    "mug",
+                    "bottle",
+                    "cereal box",
+                    "tissue box",
+                    "toothpaste",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. toothpaste\n4. fork\n5. cereal box\n6. can\n7. tissue box",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "toothpaste",
+                    "fork",
+                    "cereal box",
+                    "can",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. pencil\n3. tissue box\n4. bottle\n5. toothpaste\n6. fork\n7. can\n8. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "pencil",
+                    "tissue box",
+                    "bottle",
+                    "toothpaste",
+                    "fork",
+                    "can",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. can\n3. cereal box\n4. pencil\n5. toothpaste\n6. tissue box\n7. bottle\n8. fork",
+                "generation_objects": [
+                    "mug",
+                    "can",
+                    "cereal box",
+                    "pencil",
+                    "toothpaste",
+                    "tissue box",
+                    "bottle",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "24": {
+            "occluded_object": "pencil",
+            "occluding_object": "can",
+            "objects": [
+                "pencil",
+                "cereal box",
+                "whisk",
+                "peanut butter jar",
+                "scissors",
+                "toothpaste",
+                "mug",
+                "bottle",
+                "can"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. mug\n3. can\n4. scissors\n5. toothpaste\n6. pencil\n7. whisk\n8. peanut butter jar\n9. bottle",
+                "generation_objects": [
+                    "cereal box",
+                    "mug",
+                    "can",
+                    "scissors",
+                    "toothpaste",
+                    "pencil",
+                    "whisk",
+                    "peanut butter jar",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. cereal box\n4. whisk\n5. peanut butter jar\n6. toothpaste\n7. pencil\n8. can\n9. scissors\n10. fork",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "cereal box",
+                    "whisk",
+                    "peanut butter jar",
+                    "toothpaste",
+                    "pencil",
+                    "can",
+                    "scissors",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. scissors\n3. toothpaste\n4. peanut butter jar\n5. whisk\n6. can\n7. water bottle\n8. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "scissors",
+                    "toothpaste",
+                    "peanut butter jar",
+                    "whisk",
+                    "can",
+                    "water bottle",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. cereal box\n3. peanut butter jar\n4. can\n5. toothpaste\n6. whisk\n7. mug\n8. scissors",
+                "generation_objects": [
+                    "bottle",
+                    "cereal box",
+                    "peanut butter jar",
+                    "can",
+                    "toothpaste",
+                    "whisk",
+                    "mug",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "25": {
+            "occluded_object": "bowl",
+            "occluding_object": "tissue box",
+            "objects": [
+                "bowl",
+                "can",
+                "spoon",
+                "whisk",
+                "clock",
+                "mug",
+                "spatula",
+                "peanut butter jar",
+                "bottle",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. whisk\n4. spatula\n5. can\n6. bowl\n7. peanut butter jar\n8. tissue box\n9. clock",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "whisk",
+                    "spatula",
+                    "can",
+                    "bowl",
+                    "peanut butter jar",
+                    "tissue box",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. bottle\n3. clock\n4. spatula\n5. mug\n6. peanut butter jar\n7. tissue box\n8. bowl\n9. whisk",
+                "generation_objects": [
+                    "can",
+                    "bottle",
+                    "clock",
+                    "spatula",
+                    "mug",
+                    "peanut butter jar",
+                    "tissue box",
+                    "bowl",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. whisk\n4. can\n5. peanut butter jar\n6. tissue box\n7. clock\n8. scissors",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "whisk",
+                    "can",
+                    "peanut butter jar",
+                    "tissue box",
+                    "clock",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. tissue box\n3. whisk\n4. mug\n5. clock\n6. peanut butter jar\n7. bottle\n8. spatula",
+                "generation_objects": [
+                    "can",
+                    "tissue box",
+                    "whisk",
+                    "mug",
+                    "clock",
+                    "peanut butter jar",
+                    "bottle",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "26": {
+            "occluded_object": "bottle",
+            "occluding_object": "cereal box",
+            "objects": [
+                "bottle",
+                "spatula",
+                "scissors",
+                "spoon",
+                "peanut butter jar",
+                "pencil",
+                "mug",
+                "toothpaste",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. mug\n3. peanut butter jar\n4. cereal box\n5. fork\n6. toothpaste\n7. scissors\n8. spoon\n9. bottle",
+                "generation_objects": [
+                    "whisk",
+                    "mug",
+                    "peanut butter jar",
+                    "cereal box",
+                    "fork",
+                    "toothpaste",
+                    "scissors",
+                    "spoon",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. peanut butter jar\n3. scissors\n4. mug\n5. fork\n6. spatula\n7. spoon\n8. whisk\n9. cereal box\n10. pencil\n11. tissue box",
+                "generation_objects": [
+                    "toothpaste",
+                    "peanut butter jar",
+                    "scissors",
+                    "mug",
+                    "fork",
+                    "spatula",
+                    "spoon",
+                    "whisk",
+                    "cereal box",
+                    "pencil",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. toothpaste\n3. spoon\n4. fork\n5. spatula\n6. scissors\n7. mug\n8. cereal box",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "toothpaste",
+                    "spoon",
+                    "fork",
+                    "spatula",
+                    "scissors",
+                    "mug",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. peanut butter jar\n3. spoon\n4. mug\n5. scissors\n6. toothpaste\n7. spatula\n8. fork",
+                "generation_objects": [
+                    "cereal box",
+                    "peanut butter jar",
+                    "spoon",
+                    "mug",
+                    "scissors",
+                    "toothpaste",
+                    "spatula",
+                    "fork"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "27": {
+            "occluded_object": "pencil",
+            "occluding_object": "mug",
+            "objects": [
+                "pencil",
+                "cereal box",
+                "can",
+                "spatula",
+                "fork",
+                "bottle",
+                "bowl",
+                "tissue box",
+                "mug"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. can\n4. cereal box\n5. bowl\n6. fork\n7. pencil\n8. tissue box",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "can",
+                    "cereal box",
+                    "bowl",
+                    "fork",
+                    "pencil",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. can\n4. tissue box\n5. bowl\n6. fork\n7. cereal box\n8. pencil",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "can",
+                    "tissue box",
+                    "bowl",
+                    "fork",
+                    "cereal box",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. can\n3. bottle\n4. spoon\n5. fork\n6. bowl\n7. tissue box\n8. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "can",
+                    "bottle",
+                    "spoon",
+                    "fork",
+                    "bowl",
+                    "tissue box",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. mug\n3. fork\n4. can\n5. bottle\n6. bowl\n7. cereal box\n8. toothpaste",
+                "generation_objects": [
+                    "tissue box",
+                    "mug",
+                    "fork",
+                    "can",
+                    "bottle",
+                    "bowl",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "28": {
+            "occluded_object": "fork",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "fork",
+                "mug",
+                "tissue box",
+                "bowl",
+                "whisk",
+                "can",
+                "scissors",
+                "bottle",
+                "clock",
+                "spoon",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. mug\n3. tissue box\n4. peanut butter jar\n5. can\n6. spoon\n7. bowl\n8. whisk\n9. clock\n10. scissors\n11. bottle",
+                "generation_objects": [
+                    "fork",
+                    "mug",
+                    "tissue box",
+                    "peanut butter jar",
+                    "can",
+                    "spoon",
+                    "bowl",
+                    "whisk",
+                    "clock",
+                    "scissors",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. peanut butter jar\n3. whisk\n4. spoon\n5. bowl\n6. mug\n7. can\n8. clock\n9. tissue box\n10. scissors",
+                "generation_objects": [
+                    "bottle",
+                    "peanut butter jar",
+                    "whisk",
+                    "spoon",
+                    "bowl",
+                    "mug",
+                    "can",
+                    "clock",
+                    "tissue box",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. scissors\n3. mug\n4. can\n5. peanut butter jar\n6. whisk\n7. bowl\n8. spatula\n9. tissue box\n10. bottle",
+                "generation_objects": [
+                    "clock",
+                    "scissors",
+                    "mug",
+                    "can",
+                    "peanut butter jar",
+                    "whisk",
+                    "bowl",
+                    "spatula",
+                    "tissue box",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. whisk\n3. bottle\n4. mug\n5. bowl\n6. scissors\n7. cereal box\n8. spoon\n9. clock",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "whisk",
+                    "bottle",
+                    "mug",
+                    "bowl",
+                    "scissors",
+                    "cereal box",
+                    "spoon",
+                    "clock"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "29": {
+            "occluded_object": "whisk",
+            "occluding_object": "bottle",
+            "objects": [
+                "whisk",
+                "tissue box",
+                "mug",
+                "scissors",
+                "clock",
+                "bowl",
+                "spoon",
+                "spatula",
+                "cereal box",
+                "can",
+                "toothpaste",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. mug\n3. scissors\n4. toothpaste\n5. bowl\n6. tissue box\n7. fork\n8. whisk\n9. clock\n10. can\n11. bottle",
+                "generation_objects": [
+                    "cereal box",
+                    "mug",
+                    "scissors",
+                    "toothpaste",
+                    "bowl",
+                    "tissue box",
+                    "fork",
+                    "whisk",
+                    "clock",
+                    "can",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. bowl\n3. cereal box\n4. whisk\n5. scissors\n6. fork\n7. can\n8. mug\n9. tissue box\n10. spatula\n11. toothpaste\n12. bottle",
+                "generation_objects": [
+                    "clock",
+                    "bowl",
+                    "cereal box",
+                    "whisk",
+                    "scissors",
+                    "fork",
+                    "can",
+                    "mug",
+                    "tissue box",
+                    "spatula",
+                    "toothpaste",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. cereal box\n3. whisk\n4. spoon\n5. scissors\n6. can of green beans\n7. bottle\n8. bowl\n9. toothpaste\n10. mug\n11. tissue box",
+                "generation_objects": [
+                    "clock",
+                    "cereal box",
+                    "whisk",
+                    "spoon",
+                    "scissors",
+                    "can of green beans",
+                    "bottle",
+                    "bowl",
+                    "toothpaste",
+                    "mug",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. scissors\n3. clock\n4. mug\n5. bottle\n6. toothpaste\n7. can\n8. bowl\n9. tissue box\n10. pencil\n11. spoon",
+                "generation_objects": [
+                    "cereal box",
+                    "scissors",
+                    "clock",
+                    "mug",
+                    "bottle",
+                    "toothpaste",
+                    "can",
+                    "bowl",
+                    "tissue box",
+                    "pencil",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "30": {
+            "occluded_object": "mug",
+            "occluding_object": "cereal box",
+            "objects": [
+                "mug",
+                "bottle",
+                "spoon",
+                "bowl",
+                "scissors",
+                "peanut butter jar",
+                "clock",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. peanut butter jar\n3. mug\n4. scissors\n5. bowl\n6. clock\n7. bottle",
+                "generation_objects": [
+                    "cereal box",
+                    "peanut butter jar",
+                    "mug",
+                    "scissors",
+                    "bowl",
+                    "clock",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. mug\n3. peanut butter jar\n4. clock\n5. scissors\n6. bowl\n7. bottle",
+                "generation_objects": [
+                    "cereal box",
+                    "mug",
+                    "peanut butter jar",
+                    "clock",
+                    "scissors",
+                    "bowl",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. peanut butter jar\n3. clock\n4. scissors\n5. spoon\n6. bowl\n7. bottle",
+                "generation_objects": [
+                    "cereal box",
+                    "peanut butter jar",
+                    "clock",
+                    "scissors",
+                    "spoon",
+                    "bowl",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. peanut butter jar\n3. spoon\n4. bowl\n5. scissors\n6. pencil\n7. clock\n8. bottle",
+                "generation_objects": [
+                    "cereal box",
+                    "peanut butter jar",
+                    "spoon",
+                    "bowl",
+                    "scissors",
+                    "pencil",
+                    "clock",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "31": {
+            "occluded_object": "whisk",
+            "occluding_object": "cereal box",
+            "objects": [
+                "whisk",
+                "spatula",
+                "toothpaste",
+                "fork",
+                "clock",
+                "pencil",
+                "bowl",
+                "tissue box",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. bowl\n3. toothpaste\n4. cereal box\n5. whisk\n6. spoon\n7. spatula\n8. pencil\n9. clock",
+                "generation_objects": [
+                    "tissue box",
+                    "bowl",
+                    "toothpaste",
+                    "cereal box",
+                    "whisk",
+                    "spoon",
+                    "spatula",
+                    "pencil",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. bowl\n3. clock\n4. tissue box\n5. whisk\n6. toothpaste\n7. spatula\n8. pencil",
+                "generation_objects": [
+                    "cereal box",
+                    "bowl",
+                    "clock",
+                    "tissue box",
+                    "whisk",
+                    "toothpaste",
+                    "spatula",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. spatula\n3. toothpaste\n4. bowl\n5. cereal box\n6. tissue box\n7. whisk\n8. pencil\n9. spoon",
+                "generation_objects": [
+                    "clock",
+                    "spatula",
+                    "toothpaste",
+                    "bowl",
+                    "cereal box",
+                    "tissue box",
+                    "whisk",
+                    "pencil",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bowl\n2. cereal box\n3. toothpaste\n4. clock\n5. spatula\n6. fork\n7. tissue box\n8. pencil",
+                "generation_objects": [
+                    "bowl",
+                    "cereal box",
+                    "toothpaste",
+                    "clock",
+                    "spatula",
+                    "fork",
+                    "tissue box",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "32": {
+            "occluded_object": "clock",
+            "occluding_object": "tissue box",
+            "objects": [
+                "clock",
+                "bottle",
+                "scissors",
+                "bowl",
+                "mug",
+                "can",
+                "spoon",
+                "pencil",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. scissors\n3. clock\n4. pencil\n5. can\n6. bottle\n7. spoon\n8. mug\n9. bowl",
+                "generation_objects": [
+                    "tissue box",
+                    "scissors",
+                    "clock",
+                    "pencil",
+                    "can",
+                    "bottle",
+                    "spoon",
+                    "mug",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. scissors\n3. can\n4. bowl\n5. mug\n6. tissue box\n7. bottle\n8. clock\n9. pencil",
+                "generation_objects": [
+                    "spoon",
+                    "scissors",
+                    "can",
+                    "bowl",
+                    "mug",
+                    "tissue box",
+                    "bottle",
+                    "clock",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. tissue box\n3. bowl\n4. spoon\n5. can\n6. scissors\n7. mug\n8. clock\n9. pencil",
+                "generation_objects": [
+                    "bottle",
+                    "tissue box",
+                    "bowl",
+                    "spoon",
+                    "can",
+                    "scissors",
+                    "mug",
+                    "clock",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. fork\n3. mug\n4. scissors\n5. pencil\n6. can\n7. bowl\n8. bottle",
+                "generation_objects": [
+                    "tissue box",
+                    "fork",
+                    "mug",
+                    "scissors",
+                    "pencil",
+                    "can",
+                    "bowl",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "33": {
+            "occluded_object": "spoon",
+            "occluding_object": "cereal box",
+            "objects": [
+                "spoon",
+                "mug",
+                "clock",
+                "scissors",
+                "whisk",
+                "toothpaste",
+                "can",
+                "peanut butter jar",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. whisk\n3. scissors\n4. peanut butter jar\n5. spoon\n6. clock\n7. toothpaste\n8. can\n9. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "whisk",
+                    "scissors",
+                    "peanut butter jar",
+                    "spoon",
+                    "clock",
+                    "toothpaste",
+                    "can",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. mug\n3. toothpaste\n4. can\n5. scissors\n6. peanut butter jar\n7. cereal box\n8. whisk\n9. spoon",
+                "generation_objects": [
+                    "clock",
+                    "mug",
+                    "toothpaste",
+                    "can",
+                    "scissors",
+                    "peanut butter jar",
+                    "cereal box",
+                    "whisk",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. clock\n3. whisk\n4. toothpaste\n5. scissors\n6. cereal box\n7. can\n8. peanut butter jar",
+                "generation_objects": [
+                    "mug",
+                    "clock",
+                    "whisk",
+                    "toothpaste",
+                    "scissors",
+                    "cereal box",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. clock\n2. mug\n3. toothpaste\n4. cereal box\n5. scissors\n6. whisk\n7. can\n8. peanut butter jar",
+                "generation_objects": [
+                    "clock",
+                    "mug",
+                    "toothpaste",
+                    "cereal box",
+                    "scissors",
+                    "whisk",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "34": {
+            "occluded_object": "clock",
+            "occluding_object": "bottle",
+            "objects": [
+                "clock",
+                "tissue box",
+                "bowl",
+                "peanut butter jar",
+                "spoon",
+                "toothpaste",
+                "spatula",
+                "whisk",
+                "can",
+                "fork",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. spoon\n3. tissue box\n4. peanut butter jar\n5. fork\n6. bowl\n7. clock\n8. spatula\n9. toothpaste\n10. whisk\n11. can\n12. toothpaste",
+                "generation_objects": [
+                    "bottle",
+                    "spoon",
+                    "tissue box",
+                    "peanut butter jar",
+                    "fork",
+                    "bowl",
+                    "clock",
+                    "spatula",
+                    "toothpaste",
+                    "whisk",
+                    "can",
+                    "toothpaste"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. spatula\n3. spoon\n4. fork\n5. peanut butter jar\n6. clock\n7. whisk\n8. bottle\n9. bowl\n10. toothpaste\n11. can\n12. scissors",
+                "generation_objects": [
+                    "tissue box",
+                    "spatula",
+                    "spoon",
+                    "fork",
+                    "peanut butter jar",
+                    "clock",
+                    "whisk",
+                    "bottle",
+                    "bowl",
+                    "toothpaste",
+                    "can",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spatula\n2. tissue box\n3. whisk\n4. bottle\n5. bowl\n6. toothpaste\n7. peanut butter jar\n8. clock\n9. spoon\n10. can\n11. fork",
+                "generation_objects": [
+                    "spatula",
+                    "tissue box",
+                    "whisk",
+                    "bottle",
+                    "bowl",
+                    "toothpaste",
+                    "peanut butter jar",
+                    "clock",
+                    "spoon",
+                    "can",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. bowl\n3. spatula\n4. whisk\n5. peanut butter jar\n6. can\n7. spoon\n8. fork\n9. toothpaste\n10. tissue box",
+                "generation_objects": [
+                    "bottle",
+                    "bowl",
+                    "spatula",
+                    "whisk",
+                    "peanut butter jar",
+                    "can",
+                    "spoon",
+                    "fork",
+                    "toothpaste",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "35": {
+            "occluded_object": "fork",
+            "occluding_object": "spatula",
+            "objects": [
+                "fork",
+                "pencil",
+                "peanut butter jar",
+                "spoon",
+                "tissue box",
+                "scissors",
+                "toothpaste",
+                "whisk",
+                "bottle",
+                "cereal box",
+                "spatula"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. spatula\n3. scissors\n4. cereal box\n5. whisk\n6. peanut butter jar\n7. pencil\n8. toothpaste\n9. tissue box\n10. spoon",
+                "generation_objects": [
+                    "bottle",
+                    "spatula",
+                    "scissors",
+                    "cereal box",
+                    "whisk",
+                    "peanut butter jar",
+                    "pencil",
+                    "toothpaste",
+                    "tissue box",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. toothpaste\n3. whisk\n4. fork\n5. cereal box\n6. bottle\n7. tissue box\n8. spoon\n9. spatula\n10. can",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "toothpaste",
+                    "whisk",
+                    "fork",
+                    "cereal box",
+                    "bottle",
+                    "tissue box",
+                    "spoon",
+                    "spatula",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. pencil\n3. bottle\n4. peanut butter jar\n5. whisk\n6. toothpaste\n7. cereal box\n8. tissue box\n9. fork",
+                "generation_objects": [
+                    "spoon",
+                    "pencil",
+                    "bottle",
+                    "peanut butter jar",
+                    "whisk",
+                    "toothpaste",
+                    "cereal box",
+                    "tissue box",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. pencil\n3. fork\n4. spatula\n5. peanut butter jar\n6. toothpaste\n7. tissue box\n8. bottle\n9. cereal box\n10. spoon\n11. toothpaste tube",
+                "generation_objects": [
+                    "whisk",
+                    "pencil",
+                    "fork",
+                    "spatula",
+                    "peanut butter jar",
+                    "toothpaste",
+                    "tissue box",
+                    "bottle",
+                    "cereal box",
+                    "spoon",
+                    "toothpaste tube"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "36": {
+            "occluded_object": "bowl",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "bowl",
+                "pencil",
+                "mug",
+                "cereal box",
+                "can",
+                "bottle",
+                "whisk",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. cereal box\n4. peanut butter jar\n5. can\n6. pencil\n7. whisk\n8. bowl",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "cereal box",
+                    "peanut butter jar",
+                    "can",
+                    "pencil",
+                    "whisk",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. whisk\n3. fork\n4. peanut butter jar\n5. can\n6. bottle\n7. pencil\n8. bowl\n9. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "whisk",
+                    "fork",
+                    "peanut butter jar",
+                    "can",
+                    "bottle",
+                    "pencil",
+                    "bowl",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. bottle\n3. mug\n4. can\n5. cereal box\n6. whisk\n7. spoon\n8. bowl\n9. fork",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "mug",
+                    "can",
+                    "cereal box",
+                    "whisk",
+                    "spoon",
+                    "bowl",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. cereal box\n3. peanut butter jar\n4. can\n5. pencil\n6. bottle\n7. fork\n8. whisk",
+                "generation_objects": [
+                    "mug",
+                    "cereal box",
+                    "peanut butter jar",
+                    "can",
+                    "pencil",
+                    "bottle",
+                    "fork",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "37": {
+            "occluded_object": "mug",
+            "occluding_object": "bottle",
+            "objects": [
+                "mug",
+                "peanut butter jar",
+                "cereal box",
+                "bowl",
+                "fork",
+                "pencil",
+                "clock",
+                "scissors",
+                "toothpaste",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. scissors\n3. peanut butter jar\n4. mug\n5. clock\n6. fork\n7. bottle\n8. toothpaste\n9. pencil\n10. bowl\n11. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "scissors",
+                    "peanut butter jar",
+                    "mug",
+                    "clock",
+                    "fork",
+                    "bottle",
+                    "toothpaste",
+                    "pencil",
+                    "bowl",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. peanut butter jar\n3. cereal box\n4. clock\n5. scissors\n6. fork\n7. pencil\n8. bowl\n9. toothpaste\n10. mug",
+                "generation_objects": [
+                    "bottle",
+                    "peanut butter jar",
+                    "cereal box",
+                    "clock",
+                    "scissors",
+                    "fork",
+                    "pencil",
+                    "bowl",
+                    "toothpaste",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. bowl\n3. toothpaste\n4. cereal box\n5. pencil\n6. clock\n7. spatula\n8. scissors\n9. peanut butter jar\n10. spoon\n11. mug",
+                "generation_objects": [
+                    "bottle",
+                    "bowl",
+                    "toothpaste",
+                    "cereal box",
+                    "pencil",
+                    "clock",
+                    "spatula",
+                    "scissors",
+                    "peanut butter jar",
+                    "spoon",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bowl\n2. cereal box\n3. peanut butter jar\n4. bottle\n5. pencil\n6. toothpaste\n7. spoon\n8. clock\n9. scissors",
+                "generation_objects": [
+                    "bowl",
+                    "cereal box",
+                    "peanut butter jar",
+                    "bottle",
+                    "pencil",
+                    "toothpaste",
+                    "spoon",
+                    "clock",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "38": {
+            "occluded_object": "whisk",
+            "occluding_object": "can",
+            "objects": [
+                "whisk",
+                "bottle",
+                "toothpaste",
+                "cereal box",
+                "bowl",
+                "fork",
+                "spatula",
+                "mug",
+                "tissue box",
+                "clock",
+                "can"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. cereal box\n3. whisk\n4. bottle\n5. tissue box\n6. mug\n7. spatula\n8. can\n9. bowl\n10. clock",
+                "generation_objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "whisk",
+                    "bottle",
+                    "tissue box",
+                    "mug",
+                    "spatula",
+                    "can",
+                    "bowl",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. spoon\n3. can\n4. toothpaste\n5. tissue box\n6. bowl\n7. clock\n8. mug\n9. spatula\n10. bottle",
+                "generation_objects": [
+                    "whisk",
+                    "spoon",
+                    "can",
+                    "toothpaste",
+                    "tissue box",
+                    "bowl",
+                    "clock",
+                    "mug",
+                    "spatula",
+                    "bottle"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. fork\n3. bottle\n4. clock\n5. toothpaste\n6. tissue box\n7. bowl\n8. can\n9. mug\n10. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "fork",
+                    "bottle",
+                    "clock",
+                    "toothpaste",
+                    "tissue box",
+                    "bowl",
+                    "can",
+                    "mug",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. toothpaste\n3. tissue box\n4. clock\n5. mug\n6. fork\n7. bottle\n8. can\n9. spatula\n10. bowl",
+                "generation_objects": [
+                    "cereal box",
+                    "toothpaste",
+                    "tissue box",
+                    "clock",
+                    "mug",
+                    "fork",
+                    "bottle",
+                    "can",
+                    "spatula",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "39": {
+            "occluded_object": "spoon",
+            "occluding_object": "clock",
+            "objects": [
+                "spoon",
+                "tissue box",
+                "can",
+                "peanut butter jar",
+                "mug",
+                "fork",
+                "scissors",
+                "bottle",
+                "clock"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. tissue box\n3. fork\n4. clock\n5. peanut butter jar\n6. spoon\n7. can\n8. mug\n9. scissors",
+                "generation_objects": [
+                    "bottle",
+                    "tissue box",
+                    "fork",
+                    "clock",
+                    "peanut butter jar",
+                    "spoon",
+                    "can",
+                    "mug",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. peanut butter jar\n4. can\n5. scissors\n6. tissue box\n7. spoon\n8. fork\n9. clock",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "peanut butter jar",
+                    "can",
+                    "scissors",
+                    "tissue box",
+                    "spoon",
+                    "fork",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. can\n4. peanut butter jar\n5. clock\n6. scissors\n7. fork\n8. tissue box",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "can",
+                    "peanut butter jar",
+                    "clock",
+                    "scissors",
+                    "fork",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. clock\n3. scissors\n4. mug\n5. can\n6. tissue box\n7. spoon\n8. fork\n9. peanut butter jar",
+                "generation_objects": [
+                    "bottle",
+                    "clock",
+                    "scissors",
+                    "mug",
+                    "can",
+                    "tissue box",
+                    "spoon",
+                    "fork",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "40": {
+            "occluded_object": "whisk",
+            "occluding_object": "tissue box",
+            "objects": [
+                "whisk",
+                "clock",
+                "scissors",
+                "mug",
+                "toothpaste",
+                "spoon",
+                "cereal box",
+                "bowl",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. mug\n3. whisk\n4. tissue box\n5. clock\n6. scissors\n7. cereal box\n8. bowl",
+                "generation_objects": [
+                    "toothpaste",
+                    "mug",
+                    "whisk",
+                    "tissue box",
+                    "clock",
+                    "scissors",
+                    "cereal box",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. scissors\n3. clock\n4. mug\n5. tissue box\n6. whisk\n7. bowl\n8. toothpaste\n9. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "scissors",
+                    "clock",
+                    "mug",
+                    "tissue box",
+                    "whisk",
+                    "bowl",
+                    "toothpaste",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. mug\n3. scissors\n4. clock\n5. bowl\n6. tissue box\n7. spatula\n8. cereal box\n9. spoon",
+                "generation_objects": [
+                    "toothpaste",
+                    "mug",
+                    "scissors",
+                    "clock",
+                    "bowl",
+                    "tissue box",
+                    "spatula",
+                    "cereal box",
+                    "spoon"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. tissue box\n3. mug\n4. toothpaste\n5. fork\n6. bowl\n7. clock\n8. scissors\n9. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "tissue box",
+                    "mug",
+                    "toothpaste",
+                    "fork",
+                    "bowl",
+                    "clock",
+                    "scissors",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "41": {
+            "occluded_object": "toothpaste",
+            "occluding_object": "bottle",
+            "objects": [
+                "toothpaste",
+                "whisk",
+                "cereal box",
+                "spoon",
+                "pencil",
+                "peanut butter jar",
+                "spatula",
+                "mug",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. peanut butter jar\n3. toothpaste\n4. whisk\n5. cereal box\n6. spoon\n7. bottle\n8. scissors",
+                "generation_objects": [
+                    "mug",
+                    "peanut butter jar",
+                    "toothpaste",
+                    "whisk",
+                    "cereal box",
+                    "spoon",
+                    "bottle",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. spatula\n3. peanut butter jar\n4. bottle\n5. toothpaste\n6. cereal box\n7. whisk",
+                "generation_objects": [
+                    "mug",
+                    "spatula",
+                    "peanut butter jar",
+                    "bottle",
+                    "toothpaste",
+                    "cereal box",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. mug\n3. peanut butter jar\n4. bottle\n5. whisk\n6. toothpaste\n7. spatula\n8. fork",
+                "generation_objects": [
+                    "cereal box",
+                    "mug",
+                    "peanut butter jar",
+                    "bottle",
+                    "whisk",
+                    "toothpaste",
+                    "spatula",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. bottle\n3. whisk\n4. spatula\n5. cereal box\n6. peanut butter jar\n7. tissue box",
+                "generation_objects": [
+                    "mug",
+                    "bottle",
+                    "whisk",
+                    "spatula",
+                    "cereal box",
+                    "peanut butter jar",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "42": {
+            "occluded_object": "fork",
+            "occluding_object": "can",
+            "objects": [
+                "fork",
+                "scissors",
+                "cereal box",
+                "peanut butter jar",
+                "mug",
+                "spoon",
+                "tissue box",
+                "whisk",
+                "can"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. spoon\n3. fork\n4. whisk\n5. cereal box\n6. peanut butter jar\n7. mug\n8. spatula\n9. can",
+                "generation_objects": [
+                    "tissue box",
+                    "spoon",
+                    "fork",
+                    "whisk",
+                    "cereal box",
+                    "peanut butter jar",
+                    "mug",
+                    "spatula",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. tissue box\n3. can\n4. mug\n5. cereal box\n6. peanut butter jar\n7. spoon\n8. peanut butter\n9. fork\n10. pencil",
+                "generation_objects": [
+                    "whisk",
+                    "tissue box",
+                    "can",
+                    "mug",
+                    "cereal box",
+                    "peanut butter jar",
+                    "spoon",
+                    "peanut butter",
+                    "fork",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. can\n3. whisk\n4. spoon\n5. peanut butter jar\n6. mug\n7. pencil\n8. tissue box\n9. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "can",
+                    "whisk",
+                    "spoon",
+                    "peanut butter jar",
+                    "mug",
+                    "pencil",
+                    "tissue box",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. can\n2. spoon\n3. peanut butter jar\n4. mug\n5. whisk\n6. tissue box\n7. cereal box\n8. scissors",
+                "generation_objects": [
+                    "can",
+                    "spoon",
+                    "peanut butter jar",
+                    "mug",
+                    "whisk",
+                    "tissue box",
+                    "cereal box",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "43": {
+            "occluded_object": "can",
+            "occluding_object": "cereal box",
+            "objects": [
+                "can",
+                "mug",
+                "pencil",
+                "bottle",
+                "clock",
+                "spatula",
+                "toothpaste",
+                "peanut butter jar",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. mug\n3. pencil\n4. fork\n5. toothpaste\n6. can\n7. peanut butter jar\n8. clock\n9. spatula\n10. cereal box",
+                "generation_objects": [
+                    "bottle",
+                    "mug",
+                    "pencil",
+                    "fork",
+                    "toothpaste",
+                    "can",
+                    "peanut butter jar",
+                    "clock",
+                    "spatula",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. clock\n3. spatula\n4. bottle\n5. peanut butter jar\n6. can\n7. toothpaste\n8. pencil\n9. cereal box",
+                "generation_objects": [
+                    "mug",
+                    "clock",
+                    "spatula",
+                    "bottle",
+                    "peanut butter jar",
+                    "can",
+                    "toothpaste",
+                    "pencil",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. mug\n2. clock\n3. toothpaste\n4. bottle\n5. spoon\n6. cereal box\n7. can\n8. peanut butter jar\n9. pencil",
+                "generation_objects": [
+                    "mug",
+                    "clock",
+                    "toothpaste",
+                    "bottle",
+                    "spoon",
+                    "cereal box",
+                    "can",
+                    "peanut butter jar",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. toothpaste\n3. spatula\n4. mug\n5. pencil\n6. clock\n7. bottle\n8. peanut butter jar",
+                "generation_objects": [
+                    "cereal box",
+                    "toothpaste",
+                    "spatula",
+                    "mug",
+                    "pencil",
+                    "clock",
+                    "bottle",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "44": {
+            "occluded_object": "mug",
+            "occluding_object": "can",
+            "objects": [
+                "mug",
+                "tissue box",
+                "peanut butter jar",
+                "bottle",
+                "pencil",
+                "scissors",
+                "fork",
+                "whisk",
+                "clock",
+                "can"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. clock\n3. fork\n4. mug\n5. peanut butter jar\n6. pencil\n7. scissors\n8. can\n9. tissue box\n10. whisk",
+                "generation_objects": [
+                    "bottle",
+                    "clock",
+                    "fork",
+                    "mug",
+                    "peanut butter jar",
+                    "pencil",
+                    "scissors",
+                    "can",
+                    "tissue box",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. can\n3. fork\n4. scissors\n5. clock\n6. peanut butter jar\n7. tissue box\n8. whisk\n9. mug\n10. pencil\n11. can of green beans",
+                "generation_objects": [
+                    "bottle",
+                    "can",
+                    "fork",
+                    "scissors",
+                    "clock",
+                    "peanut butter jar",
+                    "tissue box",
+                    "whisk",
+                    "mug",
+                    "pencil",
+                    "can of green beans"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. whisk\n2. peanut butter jar\n3. bottle\n4. spoon\n5. can\n6. scissors\n7. tissue box\n8. mug\n9. clock\n10. fork\n11. pencil\n12. bowl",
+                "generation_objects": [
+                    "whisk",
+                    "peanut butter jar",
+                    "bottle",
+                    "spoon",
+                    "can",
+                    "scissors",
+                    "tissue box",
+                    "mug",
+                    "clock",
+                    "fork",
+                    "pencil",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. pencil\n2. bottle\n3. clock\n4. can\n5. tissue box\n6. whisk\n7. fork\n8. scissors\n9. peanut butter jar",
+                "generation_objects": [
+                    "pencil",
+                    "bottle",
+                    "clock",
+                    "can",
+                    "tissue box",
+                    "whisk",
+                    "fork",
+                    "scissors",
+                    "peanut butter jar"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "45": {
+            "occluded_object": "spoon",
+            "occluding_object": "tissue box",
+            "objects": [
+                "spoon",
+                "toothpaste",
+                "bottle",
+                "clock",
+                "cereal box",
+                "spatula",
+                "tissue box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. bottle\n3. cereal box\n4. spoon\n5. clock\n6. spatula\n7. tissue box",
+                "generation_objects": [
+                    "toothpaste",
+                    "bottle",
+                    "cereal box",
+                    "spoon",
+                    "clock",
+                    "spatula",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. toothpaste\n3. bottle\n4. tissue box\n5. clock\n6. cereal box\n7. fork",
+                "generation_objects": [
+                    "spoon",
+                    "toothpaste",
+                    "bottle",
+                    "tissue box",
+                    "clock",
+                    "cereal box",
+                    "fork"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. tissue box\n3. clock\n4. bottle\n5. cereal box\n6. fork",
+                "generation_objects": [
+                    "toothpaste",
+                    "tissue box",
+                    "clock",
+                    "bottle",
+                    "cereal box",
+                    "fork"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. cereal box\n3. tissue box\n4. clock\n5. bottle\n6. scissors",
+                "generation_objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "tissue box",
+                    "clock",
+                    "bottle",
+                    "scissors"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "46": {
+            "occluded_object": "bowl",
+            "occluding_object": "cereal box",
+            "objects": [
+                "bowl",
+                "toothpaste",
+                "peanut butter jar",
+                "scissors",
+                "spatula",
+                "fork",
+                "pencil",
+                "clock",
+                "spoon",
+                "can",
+                "cereal box"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. cereal box\n3. can\n4. toothpaste\n5. peanut butter jar\n6. clock\n7. spatula\n8. scissors\n9. bowl\n10. pencil",
+                "generation_objects": [
+                    "spoon",
+                    "cereal box",
+                    "can",
+                    "toothpaste",
+                    "peanut butter jar",
+                    "clock",
+                    "spatula",
+                    "scissors",
+                    "bowl",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. spoon\n2. peanut butter jar\n3. toothpaste\n4. scissors\n5. can\n6. clock\n7. spatula\n8. bowl\n9. cereal box\n10. pencil",
+                "generation_objects": [
+                    "spoon",
+                    "peanut butter jar",
+                    "toothpaste",
+                    "scissors",
+                    "can",
+                    "clock",
+                    "spatula",
+                    "bowl",
+                    "cereal box",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. peanut butter jar\n3. spoon\n4. spatula\n5. cereal box\n6. pencil\n7. can\n8. clock\n9. scissors\n10. whisk\n11. bowl",
+                "generation_objects": [
+                    "toothpaste",
+                    "peanut butter jar",
+                    "spoon",
+                    "spatula",
+                    "cereal box",
+                    "pencil",
+                    "can",
+                    "clock",
+                    "scissors",
+                    "whisk",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. toothpaste\n3. peanut butter jar\n4. scissors\n5. can\n6. clock\n7. pencil\n8. spoon\n9. spatula",
+                "generation_objects": [
+                    "cereal box",
+                    "toothpaste",
+                    "peanut butter jar",
+                    "scissors",
+                    "can",
+                    "clock",
+                    "pencil",
+                    "spoon",
+                    "spatula"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "47": {
+            "occluded_object": "spatula",
+            "occluding_object": "peanut butter jar",
+            "objects": [
+                "spatula",
+                "can",
+                "bowl",
+                "scissors",
+                "fork",
+                "whisk",
+                "cereal box",
+                "peanut butter jar"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. scissors\n3. whisk\n4. can\n5. bowl\n6. spatula\n7. fork\n8. cereal box",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "scissors",
+                    "whisk",
+                    "can",
+                    "bowl",
+                    "spatula",
+                    "fork",
+                    "cereal box"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. spatula\n3. peanut butter jar\n4. scissors\n5. can\n6. bowl\n7. fork\n8. whisk",
+                "generation_objects": [
+                    "cereal box",
+                    "spatula",
+                    "peanut butter jar",
+                    "scissors",
+                    "can",
+                    "bowl",
+                    "fork",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. cereal box\n3. peanut butter jar\n4. spatula\n5. scissors\n6. bowl\n7. can",
+                "generation_objects": [
+                    "fork",
+                    "cereal box",
+                    "peanut butter jar",
+                    "spatula",
+                    "scissors",
+                    "bowl",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. bowl\n3. can\n4. fork\n5. scissors\n6. cereal box\n7. whisk",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "bowl",
+                    "can",
+                    "fork",
+                    "scissors",
+                    "cereal box",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "48": {
+            "occluded_object": "clock",
+            "occluding_object": "spatula",
+            "objects": [
+                "clock",
+                "can",
+                "bottle",
+                "pencil",
+                "whisk",
+                "tissue box",
+                "fork",
+                "peanut butter jar",
+                "bowl",
+                "mug",
+                "spatula"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. clock\n3. bottle\n4. peanut butter jar\n5. can\n6. spatula\n7. mug\n8. tissue box\n9. whisk\n10. bowl",
+                "generation_objects": [
+                    "fork",
+                    "clock",
+                    "bottle",
+                    "peanut butter jar",
+                    "can",
+                    "spatula",
+                    "mug",
+                    "tissue box",
+                    "whisk",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. mug\n3. spoon\n4. can\n5. whisk\n6. bottle\n7. bowl\n8. spatula\n9. tissue box",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "mug",
+                    "spoon",
+                    "can",
+                    "whisk",
+                    "bottle",
+                    "bowl",
+                    "spatula",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. fork\n2. whisk\n3. mug\n4. can of beans\n5. bottle\n6. spatula\n7. tissue box\n8. peanut butter jar\n9. bowl\n10. clock",
+                "generation_objects": [
+                    "fork",
+                    "whisk",
+                    "mug",
+                    "can of beans",
+                    "bottle",
+                    "spatula",
+                    "tissue box",
+                    "peanut butter jar",
+                    "bowl",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. bottle\n2. can\n3. peanut butter jar\n4. bowl\n5. whisk\n6. mug\n7. scissors\n8. tissue box\n9. fork",
+                "generation_objects": [
+                    "bottle",
+                    "can",
+                    "peanut butter jar",
+                    "bowl",
+                    "whisk",
+                    "mug",
+                    "scissors",
+                    "tissue box",
+                    "fork"
+                ],
+                "is_occluded_object_identified": false
+            }
+        },
+        "49": {
+            "occluded_object": "can",
+            "occluding_object": "bottle",
+            "objects": [
+                "can",
+                "peanut butter jar",
+                "mug",
+                "clock",
+                "pencil",
+                "toothpaste",
+                "tissue box",
+                "bowl",
+                "bottle"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. peanut butter jar\n3. bottle\n4. can\n5. clock\n6. tissue box\n7. mug\n8. bowl\n9. pencil",
+                "generation_objects": [
+                    "toothpaste",
+                    "peanut butter jar",
+                    "bottle",
+                    "can",
+                    "clock",
+                    "tissue box",
+                    "mug",
+                    "bowl",
+                    "pencil"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. tissue box\n2. bottle\n3. can\n4. peanut butter jar\n5. bowl\n6. toothpaste\n7. mug\n8. fork\n9. clock",
+                "generation_objects": [
+                    "tissue box",
+                    "bottle",
+                    "can",
+                    "peanut butter jar",
+                    "bowl",
+                    "toothpaste",
+                    "mug",
+                    "fork",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. peanut butter jar\n2. bottle\n3. tissue box\n4. mug\n5. toothpaste\n6. spoon\n7. clock\n8. can\n9. bowl",
+                "generation_objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "tissue box",
+                    "mug",
+                    "toothpaste",
+                    "spoon",
+                    "clock",
+                    "can",
+                    "bowl"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. peanut butter jar\n3. bowl\n4. tissue box\n5. mug\n6. clock\n7. bottle\n8. can",
+                "generation_objects": [
+                    "toothpaste",
+                    "peanut butter jar",
+                    "bowl",
+                    "tissue box",
+                    "mug",
+                    "clock",
+                    "bottle",
+                    "can"
+                ],
+                "is_occluded_object_identified": true
+            }
+        },
+        "50": {
+            "occluded_object": "whisk",
+            "occluding_object": "mug",
+            "objects": [
+                "whisk",
+                "tissue box",
+                "bowl",
+                "toothpaste",
+                "scissors",
+                "bottle",
+                "cereal box",
+                "pencil",
+                "can",
+                "mug"
+            ],
+            "no_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. pencil\n2. bowl\n3. whisk\n4. toothpaste\n5. cereal box\n6. scissors\n7. can\n8. bottle\n9. mug\n10. tissue box\n11. clock",
+                "generation_objects": [
+                    "pencil",
+                    "bowl",
+                    "whisk",
+                    "toothpaste",
+                    "cereal box",
+                    "scissors",
+                    "can",
+                    "bottle",
+                    "mug",
+                    "tissue box",
+                    "clock"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "low_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. toothpaste\n2. cereal box\n3. can\n4. bowl\n5. bottle\n6. pencil\n7. whisk\n8. scissors\n9. tissue box\n10. mug",
+                "generation_objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "can",
+                    "bowl",
+                    "bottle",
+                    "pencil",
+                    "whisk",
+                    "scissors",
+                    "tissue box",
+                    "mug"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "medium_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. toothpaste\n3. scissors\n4. can\n5. pencil\n6. mug\n7. bottle\n8. bowl\n9. tissue box\n10. whisk",
+                "generation_objects": [
+                    "cereal box",
+                    "toothpaste",
+                    "scissors",
+                    "can",
+                    "pencil",
+                    "mug",
+                    "bottle",
+                    "bowl",
+                    "tissue box",
+                    "whisk"
+                ],
+                "is_occluded_object_identified": true
+            },
+            "high_occlusion_generation": {
+                "generation": "The objects on the table are:\n1. cereal box\n2. can\n3. toothpaste\n4. pencil\n5. bowl\n6. scissors\n7. bottle\n8. mug\n9. tissue box",
+                "generation_objects": [
+                    "cereal box",
+                    "can",
+                    "toothpaste",
+                    "pencil",
+                    "bowl",
+                    "scissors",
+                    "bottle",
+                    "mug",
+                    "tissue box"
+                ],
+                "is_occluded_object_identified": false
+            }
+        }
+    }
+}

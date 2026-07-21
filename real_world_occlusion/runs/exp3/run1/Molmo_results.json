@@ -1,0 +1,1360 @@
+{
+    "overall": {
+        "no_occlusion": {
+            "total_tp": 73,
+            "total_num_objects": 81,
+            "pct_correct": 90.1235
+        },
+        "low_occlusion": {
+            "total_tp": 40,
+            "total_num_objects": 51,
+            "pct_correct": 78.4314
+        },
+        "medium_occlusion": {
+            "total_tp": 27,
+            "total_num_objects": 44,
+            "pct_correct": 61.3636
+        },
+        "high_occlusion": {
+            "total_tp": 15,
+            "total_num_objects": 44,
+            "pct_correct": 34.0909
+        }
+    },
+    "individual": {
+        "1": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. A jar of Jif creamy peanut butter\n2. A silver thermos with a black lid\n3. A silver fork\n4. A pair of black scissors\n5. A blue and red package of baby wipes\n6. A small alarm clock\n7. A can of beans\n8. A box of Cheerios cereal\n\nThe Cheerios box is prominently displayed and features the message \"You are loved\" along with an image of Cheerios in a heart-shaped bowl of milk."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "silver thermos with a black lid",
+                "silver fork",
+                "pair of black scissors",
+                "blue and red package of baby wipes",
+                "small alarm clock",
+                "can of beans",
+                "box of cheerios cereal",
+                "cheerios box is prominently displayed and features the message \"you are loved\" along with an image of cheerios in a heart-shaped bowl of milk"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "fork",
+                    "scissors",
+                    "cereal box"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "scissors",
+                    "cereal box",
+                    "fork",
+                    "bottle",
+                    "peanut butter jar"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "toothpaste"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "clock",
+                    "spatula"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            }
+        },
+        "2": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Cheerios cereal box\n2. Silver can (possibly coffee)\n3. Fork\n4. White bowl\n5. Packet of salt\n6. Can of green beans\n7. Jif creamy peanut butter jar\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "silver can (possibly coffee)",
+                "fork",
+                "white bowl",
+                "packet of salt",
+                "can of green beans",
+                "jif creamy peanut butter jar"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "bowl",
+                    "peanut butter jar"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "peanut butter jar",
+                    "cereal box",
+                    "bowl"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "fork"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "fork"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "scissors",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bottle",
+                    "clock",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "3": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Hamilton thermos\n2. Box of Kleenex\n3. Black spatula\n4. Silver fork\n5. Silver knife\n6. Can of food (possibly tuna)\n7. Toothpaste tube\n8. Brown coffee mug\n9. White bowl\n10. Small white kitchen scale\n\nThe table appears to be dark blue, and there's a white wall visible in the background."
+            ],
+            "generation_objects": [
+                "hamilton thermos",
+                "box of kleenex",
+                "black spatula",
+                "silver fork",
+                "silver knife",
+                "can of food (possibly tuna)",
+                "toothpaste tube",
+                "brown coffee mug",
+                "white bowl",
+                "small white kitchen scale"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "spatula",
+                    "fork",
+                    "bowl",
+                    "can"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "fork",
+                    "bowl",
+                    "spatula",
+                    "bottle",
+                    "can"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "toothpaste"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "toothpaste"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk",
+                    "mug"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "scissors"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "4": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Box of Kleenex with striped pattern\n2. Silver thermos with black lid\n3. Black plastic fork\n4. Silver pen\n5. Pencil\n6. Small white square alarm clock\n7. Brown coffee mug\n8. White bowl\n9. Jar of Jif creamy peanut butter\n10. Small can (possibly tuna or another canned food)\n\nThe table also has a black surface and a white textured wall in the background."
+            ],
+            "generation_objects": [
+                "box of kleenex with striped pattern",
+                "silver thermos with black lid",
+                "black plastic fork",
+                "silver pen",
+                "pencil",
+                "small white square alarm clock",
+                "brown coffee mug",
+                "white bowl",
+                "jar of jif creamy peanut butter",
+                "small can (possibly tuna or another canned food)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "peanut butter jar",
+                    "tissue box",
+                    "mug"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bottle",
+                    "mug",
+                    "peanut butter jar"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "clock",
+                    "spatula",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "clock",
+                    "pencil"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "bowl",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spoon",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "5": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Box of Kleenex with striped pattern\n2. Small square white alarm clock\n3. Silver metal thermos\n4. Black plastic spatula\n5. White bowl\n6. Jif creamy peanut butter jar\n7. Silver whisk\n8. Brown coffee mug\n9. Red Coke can\n10. Blue can (possibly tuna or another canned food)\n\nThe table appears to be dark blue, and there's a white textured wall in the background."
+            ],
+            "generation_objects": [
+                "box of kleenex with striped pattern",
+                "small square white alarm clock",
+                "silver metal thermos",
+                "black plastic spatula",
+                "white bowl",
+                "jif creamy peanut butter jar",
+                "silver whisk",
+                "brown coffee mug",
+                "red coke can",
+                "blue can (possibly tuna or another canned food)"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "bottle",
+                    "clock",
+                    "peanut butter jar"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bottle",
+                    "clock",
+                    "peanut butter jar"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spatula",
+                    "whisk",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bowl",
+                    "whisk",
+                    "spatula"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "mug",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "can"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            }
+        },
+        "6": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Cheerios cereal box\n2. Silver thermos with black lid\n3. White spoon\n4. Small white bowl\n5. Can of Great Value sweetened condensed milk\n6. Box of Kleenex with blue, white, and gray stripes\n7. Brown coffee mug\n8. Black spatula with silver handle\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "silver thermos with black lid",
+                "white spoon",
+                "small white bowl",
+                "can of great value sweetened condensed milk",
+                "box of kleenex with blue, white, and gray stripes",
+                "brown coffee mug",
+                "black spatula with silver handle"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "spatula",
+                    "cereal box",
+                    "bottle"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bottle",
+                    "mug",
+                    "cereal box",
+                    "spatula"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "spoon"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "fork",
+                    "bowl"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "bowl"
+                ],
+                "tp": 1
+            }
+        },
+        "7": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Jif creamy peanut butter jar\n2. stick of butter\n3. box of Cheerios cereal\n4. fork\n5. knife\n6. spoon\n7. small square white clock\n8. pencil\n9. white bowl\n10. can of Great Value green beans\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "jif creamy peanut butter jar",
+                "stick of butter",
+                "box of cheerios cereal",
+                "fork",
+                "knife",
+                "spoon",
+                "small square white clock",
+                "pencil",
+                "white bowl",
+                "can of great value green beans"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "fork",
+                    "clock",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "clock",
+                    "peanut butter jar",
+                    "fork",
+                    "can"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "cereal box",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "cereal box",
+                    "pencil"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "scissors",
+                    "spoon",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "spoon",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "8": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Silver thermos with black lid\n2. Box of Kleenex with blue, white, and gray stripes\n3. White bowl\n4. Jif creamy peanut butter jar\n5. Can of green beans\n6. Black spatula\n7. Gray coffee mug\n8. tube of Crest toothpaste\n9. Black scissors\n10. Silver fork\n11. Black knife\n\nThe table appears to be dark blue, and there's a white wall in the background."
+            ],
+            "generation_objects": [
+                "silver thermos with black lid",
+                "box of kleenex with blue, white, and gray stripes",
+                "white bowl",
+                "jif creamy peanut butter jar",
+                "can of green beans",
+                "black spatula",
+                "gray coffee mug",
+                "tube of crest toothpaste",
+                "black scissors",
+                "silver fork",
+                "black knife"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bottle",
+                    "bowl",
+                    "mug",
+                    "fork"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bottle",
+                    "mug",
+                    "fork",
+                    "bowl"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "scissors",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "toothpaste",
+                    "peanut butter jar"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "can",
+                    "spatula"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "whisk",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "9": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. White bowl\n2. Brown coffee mug\n3. Small white alarm clock\n4. Pencil\n5. Black spatula\n6. Silver thermos\n7. Jar of Jif peanut butter\n8. Box of tissues\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "white bowl",
+                "brown coffee mug",
+                "small white alarm clock",
+                "pencil",
+                "black spatula",
+                "silver thermos",
+                "jar of jif peanut butter",
+                "box of tissues"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bowl",
+                    "mug",
+                    "bottle",
+                    "peanut butter jar",
+                    "spatula"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "mug",
+                    "spatula",
+                    "bowl",
+                    "bottle",
+                    "peanut butter jar"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "pencil"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "scissors",
+                    "spoon",
+                    "fork",
+                    "tissue box"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "tissue box"
+                ],
+                "tp": 1
+            }
+        },
+        "10": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Cheerios cereal box\n2. Peanut butter jar\n3. Can of green beans\n4. White bowl\n5. Spoon\n6. Colgate toothpaste tube\n7. Whisk\n8. Pencil\n9. Box of Kleenex with striped pattern\n10. Two small black objects (possibly bottle openers or can openers)\n\nThe table appears to be set up for a meal, with various breakfast and snack items visible. There's also a mix of personal care items like toothpaste and tissues, suggesting this might be a multi-purpose area in someone's home."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "peanut butter jar",
+                "can of green beans",
+                "white bowl",
+                "spoon",
+                "colgate toothpaste tube",
+                "whisk",
+                "pencil",
+                "box of kleenex with striped pattern",
+                "two small black objects (possibly bottle openers or can openers)",
+                "there's also a mix of personal care items like toothpaste and tissues, suggesting this might be a multi-purpose area in someone's home"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "bowl",
+                    "mug",
+                    "toothpaste",
+                    "whisk"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "toothpaste",
+                    "whisk",
+                    "bowl"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spoon",
+                    "can",
+                    "pencil",
+                    "tissue box",
+                    "cereal box"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "pencil",
+                    "spoon",
+                    "cereal box",
+                    "can"
+                ],
+                "tp": 4
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "peanut butter jar"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula"
+                ],
+                "num_objects": 1,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "11": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Great Value green beans can\n2. Peanut butter jar\n3. Fork\n4. White bowl\n5. Gold pencil\n6. Silver thermos\n7. Toothbrush\n8. Brown coffee mug\n9. Black scissors\n10. White string\n\nThe table appears to be dark blue, and there's a white wall in the background."
+            ],
+            "generation_objects": [
+                "great value green beans can",
+                "peanut butter jar",
+                "fork",
+                "white bowl",
+                "gold pencil",
+                "silver thermos",
+                "toothbrush",
+                "brown coffee mug",
+                "black scissors",
+                "white string"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "bowl",
+                    "bottle",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "mug",
+                    "bowl",
+                    "bottle",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "fork",
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "pencil",
+                    "fork"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "scissors"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "clock",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "12": {
+            "generation": [
+                " The objects on the table are:\n\n1. Cheerios cereal box\n2. Silver thermos with a black lid\n3. Box of Kleenex with blue, white, and gray stripes\n4. White bowl\n5. Black spatula\n6. Brown cup\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "silver thermos with a black lid",
+                "box of kleenex with blue, white, and gray stripes",
+                "white bowl",
+                "black spatula",
+                "brown cup"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "tissue box"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "cereal box"
+                ],
+                "tp": 1
+            },
+            "low_occlusion": {
+                "objects": [
+                    "bottle"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "bottle"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "bowl",
+                    "spoon"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "bowl"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "mug",
+                    "spatula"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug",
+                    "spatula"
+                ],
+                "tp": 2
+            }
+        },
+        "13": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Cheerios cereal box\n2. White bowl\n3. Brown coffee mug\n4. Fork\n5. Box of Kleenex with blue, white, and gray stripes\n6. Small square alarm clock\n7. Pencil\n8. Blue and red tube of Vaseline\n9. Scissors\n\nThe table appears to be black, and these items are arranged on its surface."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "white bowl",
+                "brown coffee mug",
+                "fork",
+                "box of kleenex with blue, white, and gray stripes",
+                "small square alarm clock",
+                "pencil",
+                "blue and red tube of vaseline",
+                "scissors"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "cereal box",
+                    "pencil"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "cereal box",
+                    "pencil"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "bowl",
+                    "toothpaste",
+                    "clock"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "clock",
+                    "bowl"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "fork",
+                    "scissors"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "scissors",
+                    "fork"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bottle",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "14": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Brown coffee mug\n2. Small white square clock\n3. Silver metal thermos with a black lid\n4. Can of beans (partially visible)\n5. Whisk\n6. Pencil\n7. Box of Kleenex with blue and white striped tissues\n8. Small white bowl\n9. Silver fork\n10. Jar of Jif creamy peanut butter\n\nThe table appears to be dark blue, and there's a white wall in the background."
+            ],
+            "generation_objects": [
+                "brown coffee mug",
+                "small white square clock",
+                "silver metal thermos with a black lid",
+                "can of beans (partially visible)",
+                "whisk",
+                "pencil",
+                "box of kleenex with blue and white striped tissues",
+                "small white bowl",
+                "silver fork",
+                "jar of jif creamy peanut butter"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "bottle",
+                    "tissue box",
+                    "bowl"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "bottle",
+                    "mug",
+                    "bowl"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil",
+                    "peanut butter jar",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "peanut butter jar",
+                    "pencil",
+                    "fork"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "toothpaste",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "can",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk",
+                    "can"
+                ],
+                "tp": 2
+            }
+        },
+        "15": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. A jar of Jif creamy peanut butter\n2. A yellow box of Cheerios cereal\n3. A brown coffee mug\n4. A silver fork\n5. A silver whisk with a black handle\n6. A white bowl\n7. A small white square clock\n8. A can of cut green beans\n9. A black spatula\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "yellow box of cheerios cereal",
+                "brown coffee mug",
+                "silver fork",
+                "silver whisk with a black handle",
+                "white bowl",
+                "small white square clock",
+                "can of cut green beans",
+                "black spatula"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bowl",
+                    "can",
+                    "clock"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "clock",
+                    "peanut butter jar",
+                    "can",
+                    "bowl"
+                ],
+                "tp": 4
+            },
+            "low_occlusion": {
+                "objects": [
+                    "spatula",
+                    "cereal box"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "cereal box",
+                    "spatula"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "whisk",
+                    "mug",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "whisk",
+                    "fork"
+                ],
+                "tp": 3
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            }
+        },
+        "16": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Cheerios cereal box\n2. Small white bowl\n3. Fork\n4. Spoon\n5. Square-shaped clock\n6. Jif peanut butter jar\n7. Brown coffee mug\n8. Yellow pencil\n9. Toothpaste tube\n10. Whisk\n11. Can of Smart Balance spread\n\nThe table appears to be set up for a meal, with the cereal, bowl, utensils, and peanut butter ready for use. The addition of the toothpaste tube suggests this might be a more comprehensive morning routine setup. The whisk could be used for mixing ingredients or for food preparation tasks."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "small white bowl",
+                "fork",
+                "spoon",
+                "square-shaped clock",
+                "jif peanut butter jar",
+                "brown coffee mug",
+                "yellow pencil",
+                "toothpaste tube",
+                "whisk",
+                "can of smart balance spread",
+                "addition of the toothpaste tube suggests this might be a more comprehensive morning routine setup",
+                "whisk could be used for mixing ingredients or for food preparation tasks"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "bowl",
+                    "clock",
+                    "mug",
+                    "peanut butter jar",
+                    "fork"
+                ],
+                "num_objects": 6,
+                "true_positives": [
+                    "mug",
+                    "cereal box",
+                    "clock",
+                    "fork",
+                    "bowl",
+                    "peanut butter jar"
+                ],
+                "tp": 6
+            },
+            "low_occlusion": {
+                "objects": [
+                    "pencil",
+                    "spoon",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "toothpaste",
+                    "spoon",
+                    "pencil"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "can"
+                ],
+                "num_objects": 1,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "spatula",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk"
+                ],
+                "tp": 1
+            }
+        },
+        "17": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Jif creamy peanut butter jar\n2. Small white square alarm clock\n3. Can of green beans\n4. Black spatula\n5. Silver thermos\n6. Whisk\n7. Small white bowl\n8. Brown paper cup\n9. Blue and white striped napkins\n10. Red and white tube of toothpaste\n\nThese items are arranged on a dark blue table, creating a diverse collection of kitchen and personal care items."
+            ],
+            "generation_objects": [
+                "jif creamy peanut butter jar",
+                "small white square alarm clock",
+                "can of green beans",
+                "black spatula",
+                "silver thermos",
+                "whisk",
+                "small white bowl",
+                "brown paper cup",
+                "blue and white striped napkins",
+                "red and white tube of toothpaste"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "clock",
+                    "can",
+                    "spatula",
+                    "bottle"
+                ],
+                "num_objects": 5,
+                "true_positives": [
+                    "clock",
+                    "spatula",
+                    "bottle",
+                    "can",
+                    "peanut butter jar"
+                ],
+                "tp": 5
+            },
+            "low_occlusion": {
+                "objects": [
+                    "whisk",
+                    "mug"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug",
+                    "whisk"
+                ],
+                "tp": 2
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "spoon",
+                    "pencil"
+                ],
+                "num_objects": 2,
+                "true_positives": [],
+                "tp": 0
+            },
+            "high_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "toothpaste",
+                    "bowl"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "toothpaste",
+                    "bowl"
+                ],
+                "tp": 2
+            }
+        },
+        "18": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Cheerios cereal box\n2. Jif creamy peanut butter jar\n3. Hamilton brand stainless steel tumbler\n4. Box of Kleenex with blue, white, and gray striped pattern\n5. Colgate toothpaste tube\n6. Pencil\n7. White ceramic bowl\n8. Brown coffee mug\n9. Black-handled scissors\n10. Whisk\n\nThe table appears to be black, and there's a white wall visible in the background."
+            ],
+            "generation_objects": [
+                "cheerios cereal box",
+                "jif creamy peanut butter jar",
+                "hamilton brand stainless steel tumbler",
+                "box of kleenex with blue, white, and gray striped pattern",
+                "colgate toothpaste tube",
+                "pencil",
+                "white ceramic bowl",
+                "brown coffee mug",
+                "black-handled scissors",
+                "whisk"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "mug",
+                    "pencil",
+                    "tissue box"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "mug",
+                    "pencil"
+                ],
+                "tp": 2
+            },
+            "low_occlusion": {
+                "objects": [
+                    "scissors",
+                    "bottle",
+                    "cereal box",
+                    "toothpaste"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "toothpaste",
+                    "scissors",
+                    "cereal box"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "peanut butter jar"
+                ],
+                "tp": 1
+            },
+            "high_occlusion": {
+                "objects": [
+                    "bowl",
+                    "whisk"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "whisk",
+                    "bowl"
+                ],
+                "tp": 2
+            }
+        },
+        "19": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. A jar of Jif creamy peanut butter\n2. A silver metal thermos with a black lid\n3. A box of Cheerios cereal\n4. A silver fork\n5. A brown coffee mug\n6. A box of Kleenex with blue, gray, and white stripes\n7. A small blue can of Great Value brand tuna\n8. A gold pen\n9. A white kitchen timer with black hands and numbers\n\nThese items are arranged on a black table against a white wall background."
+            ],
+            "generation_objects": [
+                "jar of jif creamy peanut butter",
+                "silver metal thermos with a black lid",
+                "box of cheerios cereal",
+                "silver fork",
+                "brown coffee mug",
+                "box of kleenex with blue, gray, and white stripes",
+                "small blue can of great value brand tuna",
+                "gold pen",
+                "white kitchen timer with black hands and numbers"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "peanut butter jar",
+                    "bottle",
+                    "tissue box"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "bottle",
+                    "peanut butter jar"
+                ],
+                "tp": 2
+            },
+            "low_occlusion": {
+                "objects": [
+                    "mug",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "mug"
+                ],
+                "tp": 1
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "cereal box",
+                    "pencil",
+                    "fork"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "cereal box",
+                    "fork"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "whisk",
+                    "scissors",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "can"
+                ],
+                "tp": 1
+            }
+        },
+        "20": {
+            "generation": [
+                " Here's a list of the objects on the table:\n\n1. Great Value green beans can\n2. White bowl\n3. Spoon\n4. Black spatula\n5. Small alarm clock\n6. Jif creamy peanut butter jar\n7. Silver fork\n8. Box of Kleenex with blue, gray, and white striped design\n9. Black scissors\n10. Colgate toothpaste tube\n\nThe table appears to be black, and there's a white wall visible in the background."
+            ],
+            "generation_objects": [
+                "great value green beans can",
+                "white bowl",
+                "spoon",
+                "black spatula",
+                "small alarm clock",
+                "jif creamy peanut butter jar",
+                "silver fork",
+                "box of kleenex with blue, gray, and white striped design",
+                "black scissors",
+                "colgate toothpaste tube"
+            ],
+            "no_occlusion": {
+                "objects": [
+                    "tissue box",
+                    "peanut butter jar",
+                    "can",
+                    "spatula"
+                ],
+                "num_objects": 4,
+                "true_positives": [
+                    "peanut butter jar",
+                    "can",
+                    "spatula"
+                ],
+                "tp": 3
+            },
+            "low_occlusion": {
+                "objects": [
+                    "bowl",
+                    "fork",
+                    "scissors"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "scissors",
+                    "fork",
+                    "bowl"
+                ],
+                "tp": 3
+            },
+            "medium_occlusion": {
+                "objects": [
+                    "spoon",
+                    "clock"
+                ],
+                "num_objects": 2,
+                "true_positives": [
+                    "clock",
+                    "spoon"
+                ],
+                "tp": 2
+            },
+            "high_occlusion": {
+                "objects": [
+                    "pencil",
+                    "mug",
+                    "toothpaste"
+                ],
+                "num_objects": 3,
+                "true_positives": [
+                    "toothpaste"
+                ],
+                "tp": 1
+            }
+        }
+    }
+}
